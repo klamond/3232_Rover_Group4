@@ -1,0 +1,4 @@
+D:/Documents/UNB/Winter26/Embeded (ECE-3232)/The Harvest/RoverRepo/_build/Rover_Repo/default/CMakeFiles/Rover_Repo_default_default_XC8_compile.dir
+D:/Documents/UNB/Winter26/Embeded (ECE-3232)/The Harvest/RoverRepo/_build/Rover_Repo/default/CMakeFiles/Rover_Repo_default_image_dKoEeAip.dir
+D:/Documents/UNB/Winter26/Embeded (ECE-3232)/The Harvest/RoverRepo/_build/Rover_Repo/default/CMakeFiles/edit_cache.dir
+D:/Documents/UNB/Winter26/Embeded (ECE-3232)/The Harvest/RoverRepo/_build/Rover_Repo/default/CMakeFiles/rebuild_cache.dir

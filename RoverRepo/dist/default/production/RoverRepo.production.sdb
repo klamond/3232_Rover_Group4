@@ -1,0 +1,311 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"30 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\comms.c
+[e E11713 . `uc
+WAIT_SYNC_1 0
+WAIT_SYNC_2 1
+WAIT_ID_LSB 2
+WAIT_ID_MSB 3
+WAIT_PAYLOAD_LEN_LSB 4
+WAIT_PAYLOAD_LEN_MSB 5
+WAIT_PAYLOAD 6
+]
+"35
+[v _handle_message_complete handle_message_complete `(v  1 s 1 handle_message_complete ]
+"43
+[v _process_byte process_byte `(v  1 s 1 process_byte ]
+"90
+[v _push_byte push_byte `(v  1 s 1 push_byte ]
+"99
+[v _comms_init comms_init `(v  1 e 1 0 ]
+"141
+[v _comms_send_get_data comms_send_get_data `(v  1 e 1 0 ]
+"151
+[v _comms_send_move comms_send_move `(v  1 e 1 0 ]
+"169
+[v _ISR ISR `II(v  1 e 1 0 ]
+"5 D:\Programs\MPLAB\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 D:\Programs\MPLAB\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 D:\Programs\MPLAB\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 D:\Programs\MPLAB\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\main.c
+[v _gpio_init gpio_init `(v  1 s 1 gpio_init ]
+"61
+[v _main main `(i  1 e 2 0 ]
+"7 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\movement.c
+[v _movement_parse_502 movement_parse_502 `(v  1 e 1 0 ]
+"6 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\task_solar.c
+[v _solar_parse_502 solar_parse_502 `(v  1 e 1 0 ]
+"12 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\comms.c
+[v _comms_payload comms_payload `[21]uc  1 e 21 0 ]
+"13
+[v _comms_new_402 comms_new_402 `VEuc  1 e 1 0 ]
+"14
+[v _comms_new_502 comms_new_502 `VEuc  1 e 1 0 ]
+"30
+[v _state state `E11713  1 s 1 state ]
+"31
+[v _msg_id msg_id `us  1 s 2 msg_id ]
+"32
+[v _payload_length payload_length `us  1 s 2 payload_length ]
+"33
+[v _payload_received payload_received `us  1 s 2 payload_received ]
+[s S298 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"348 D:/Programs/MPLAB/packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f18855.h
+[u S303 . 1 `S298 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES303  1 e 1 @11 ]
+[s S22 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"592
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES31  1 e 1 @17 ]
+[s S215 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"716
+[u S224 . 1 `S215 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES224  1 e 1 @19 ]
+[s S64 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"778
+[u S73 . 1 `S64 1 . 1 0 ]
+[v _LATAbits LATAbits `VES73  1 e 1 @22 ]
+"3487
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"3541
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"3607
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+[s S186 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3741
+[u S195 . 1 `S186 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES195  1 e 1 @285 ]
+[s S165 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3921
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES174  1 e 1 @286 ]
+[s S259 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4109
+[u S268 . 1 `S259 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES268  1 e 1 @287 ]
+[s S147 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"21093
+[u S154 . 1 `S147 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES154  1 e 1 @1807 ]
+[s S281 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+"21515
+[u S288 . 1 `S281 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES288  1 e 1 @1817 ]
+"29607
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3727 ]
+[s S208 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"29617
+[u S210 . 1 `S208 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES210  1 e 1 @3727 ]
+"31539
+[v _RXPPS RXPPS `VEuc  1 e 1 @3787 ]
+"32743
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3878 ]
+[s S43 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 ANSA3 1 0 :1:3 
+`uc 1 ANSA4 1 0 :1:4 
+`uc 1 ANSA5 1 0 :1:5 
+`uc 1 ANSA6 1 0 :1:6 
+`uc 1 ANSA7 1 0 :1:7 
+]
+"32860
+[u S52 . 1 `S43 1 . 1 0 ]
+"32860
+"32860
+[v _ANSELAbits ANSELAbits `VES52  1 e 1 @3896 ]
+[s S236 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 ANSC4 1 0 :1:4 
+`uc 1 ANSC5 1 0 :1:5 
+`uc 1 ANSC6 1 0 :1:6 
+`uc 1 ANSC7 1 0 :1:7 
+]
+"34100
+[u S245 . 1 `S236 1 . 1 0 ]
+"34100
+"34100
+[v _ANSELCbits ANSELCbits `VES245  1 e 1 @3918 ]
+"61 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"77
+} 0
+"6 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\task_solar.c
+[v _solar_parse_502 solar_parse_502 `(v  1 e 1 0 ]
+{
+"7
+[v solar_parse_502@Raw_SW_A Raw_SW_A `us  1 a 2 5 ]
+"9
+} 0
+"7 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\movement.c
+[v _movement_parse_502 movement_parse_502 `(v  1 e 1 0 ]
+{
+"21
+[v movement_parse_502@right right `s  1 a 2 31 ]
+"20
+[v movement_parse_502@left left `s  1 a 2 29 ]
+"12
+[v movement_parse_502@Y_Centered Y_Centered `s  1 a 2 27 ]
+"11
+[v movement_parse_502@X_Centered X_Centered `s  1 a 2 25 ]
+"18
+[v movement_parse_502@steering steering `s  1 a 2 23 ]
+"17
+[v movement_parse_502@throttle throttle `s  1 a 2 21 ]
+"9
+[v movement_parse_502@Raw_Y_Axis Raw_Y_Axis `us  1 a 2 15 ]
+"8
+[v movement_parse_502@Raw_X_Axis Raw_X_Axis `us  1 a 2 13 ]
+"28
+[v movement_parse_502@speedB speedB `uc  1 a 1 20 ]
+[v movement_parse_502@dirB dirB `uc  1 a 1 19 ]
+[v movement_parse_502@speedA speedA `uc  1 a 1 18 ]
+[v movement_parse_502@dirA dirA `uc  1 a 1 17 ]
+"39
+} 0
+"151 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\comms.c
+[v _comms_send_move comms_send_move `(v  1 e 1 0 ]
+{
+[v comms_send_move@dirA dirA `uc  1 p 1 wreg ]
+[v comms_send_move@dirA dirA `uc  1 p 1 wreg ]
+[v comms_send_move@speedA speedA `uc  1 p 1 1 ]
+[v comms_send_move@dirB dirB `uc  1 p 1 2 ]
+[v comms_send_move@speedB speedB `uc  1 p 1 3 ]
+[v comms_send_move@dirA dirA `uc  1 p 1 4 ]
+"163
+} 1
+"5 D:\Programs\MPLAB\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"50 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\main.c
+[v _gpio_init gpio_init `(v  1 s 1 gpio_init ]
+{
+"59
+} 0
+"141 D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\comms.c
+[v _comms_send_get_data comms_send_get_data `(v  1 e 1 0 ]
+{
+"149
+} 0
+"90
+[v _push_byte push_byte `(v  1 s 1 push_byte ]
+{
+[v push_byte@byte byte `uc  1 p 1 wreg ]
+[v push_byte@byte byte `uc  1 p 1 wreg ]
+[v push_byte@byte byte `uc  1 p 1 0 ]
+"93
+} 1
+"99
+[v _comms_init comms_init `(v  1 e 1 0 ]
+{
+"129
+} 0
+"169
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"171
+[v ISR@byte byte `uc  1 a 1 4 ]
+"178
+} 0
+"43
+[v _process_byte process_byte `(v  1 s 1 process_byte ]
+{
+[v process_byte@byte byte `uc  1 p 1 wreg ]
+[v process_byte@byte byte `uc  1 p 1 wreg ]
+[v process_byte@byte byte `uc  1 p 1 3 ]
+"84
+} 1
+"35
+[v _handle_message_complete handle_message_complete `(v  1 s 1 handle_message_complete ]
+{
+"41
+} 0

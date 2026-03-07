@@ -14,5 +14,6 @@ void comms_init(void);
 void comms_send_get_info(void);
 void comms_send_get_data(void);
 void comms_send_move(uint8_t dirA, uint8_t speedA, uint8_t dirB, uint8_t speedB);
+void comms_send_color_info(uint8_t color);
 
 #endif

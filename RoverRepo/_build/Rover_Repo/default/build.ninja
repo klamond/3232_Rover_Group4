@@ -77,6 +77,17 @@ build CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Win
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir
 
+build CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\ore_process.c.p1: C_COMPILER__Rover_Repo_default_default_XC8_compile_unscanned_ D$:\Documents\UNB\Winter26\Embeded$ (ECE-3232)\The$ Harvest\RoverRepo\ore_process.c || cmake_object_order_depends_target_Rover_Repo_default_default_XC8_compile
+  DEFINES = -DXPRJ_default=default -D__16F18855__ -D__DEBUG=1
+  DEP_FILE = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\ore_process.c.p1.d
+  FLAGS = -c -mcpu=16F18855 -mdfp=C:/Users/kabil/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8 -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto
+  INCLUDES = -I"D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\cmake\Rover_Repo\default\..\..\.."
+  OBJECT_DIR = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo
+  TARGET_COMPILE_PDB = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir
+
 build CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1: C_COMPILER__Rover_Repo_default_default_XC8_compile_unscanned_ D$:\Documents\UNB\Winter26\Embeded$ (ECE-3232)\The$ Harvest\RoverRepo\task_solar.c || cmake_object_order_depends_target_Rover_Repo_default_default_XC8_compile
   DEFINES = -DXPRJ_default=default -D__16F18855__ -D__DEBUG=1
   DEP_FILE = CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1.d
@@ -93,7 +104,7 @@ build CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Win
 #############################################
 # Object library Rover_Repo_default_default_XC8_compile
 
-build Rover_Repo_default_default_XC8_compile: phony CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\comms.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\main.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\movement.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1
+build Rover_Repo_default_default_XC8_compile: phony CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\comms.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\main.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\movement.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\ore_process.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Rover_Repo_default_image_dKoEeAip
@@ -112,7 +123,7 @@ build cmake_object_order_depends_target_Rover_Repo_default_image_dKoEeAip: phony
 #############################################
 # Link the executable D:\Documents\UNB\Winter26\Embeded (ECE-3232)\The Harvest\RoverRepo\out\Rover_Repo\default.elf
 
-build D$:\Documents\UNB\Winter26\Embeded$ (ECE-3232)\The$ Harvest\RoverRepo\out\Rover_Repo\default.elf: C_EXECUTABLE_LINKER__Rover_Repo_default_image_dKoEeAip_ CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\comms.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\main.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\movement.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1 || Rover_Repo_default_default_XC8_compile
+build D$:\Documents\UNB\Winter26\Embeded$ (ECE-3232)\The$ Harvest\RoverRepo\out\Rover_Repo\default.elf: C_EXECUTABLE_LINKER__Rover_Repo_default_image_dKoEeAip_ CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\comms.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\main.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\movement.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\ore_process.c.p1 CMakeFiles\Rover_Repo_default_default_XC8_compile.dir\D_\Documents\UNB\Winter26\Embeded_(ECE-3232)\The_Harvest\RoverRepo\task_solar.c.p1 || Rover_Repo_default_default_XC8_compile
   LINK_FLAGS = -Wl,-Map=mem.map -mcpu=16F18855 -Wl,--defsym=__MPLAB_BUILD=1 -mdfp=C:/Users/kabil/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8 -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -Wl,--memorysummary,memoryfile.xml
   OBJECT_DIR = CMakeFiles\Rover_Repo_default_image_dKoEeAip.dir
   POST_BUILD = cd .

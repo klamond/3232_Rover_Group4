@@ -44,6 +44,7 @@
 #include "comms.h"
 #include "movement.h"
 #include "task_solar.h"
+#include "ore_process.h"
 
 #define _XTAL_FREQ 32000000UL
 
@@ -70,6 +71,7 @@ int main(void) {
             comms_new_502 = 0;
             movement_parse_502();
             solar_parse_502();
+            ore_process_parse_502();
         }
     }
 

@@ -162,6 +162,17 @@ void comms_send_move(uint8_t dirA, uint8_t speedA, uint8_t dirB, uint8_t speedB)
     while (TX1STAbits.TRMT == 0) {}
 }
 
+void comms_send_color_info(uint8_t color) {
+    push_byte(0xFE);
+    push_byte(0x19);
+    push_byte(0x03);   // msg ID LSB
+    push_byte(0x0A);   // msg ID MSB  → 0x0A03
+    push_byte(0x01);   // payload len LSB (1 byte)
+    push_byte(0x00);   // payload len MSB
+    push_byte(color);  // 1=red, 2=yellow, 3=blue
+    while (TX1STAbits.TRMT == 0) {}
+}
+
 // ============================================================================
 // ISR
 // ============================================================================

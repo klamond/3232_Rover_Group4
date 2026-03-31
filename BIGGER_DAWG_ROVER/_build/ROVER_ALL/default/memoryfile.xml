@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/out/ROVER_ALL/default.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>1283</used>
+      <free>6909</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>75</used>
+      <free>949</free>
+    </memory>
+  </executable>
+</project>

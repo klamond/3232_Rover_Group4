@@ -1,0 +1,306 @@
+/*
+ * File:   Main_Code.c
+ * Author: Logan Vessey #3710996
+ *
+ * Created on March 9, 2026, 10:00 PM
+ */
+
+// CONFIG1
+#pragma config FEXTOSC = OFF
+#pragma config RSTOSC = HFINT32
+#pragma config CLKOUTEN = OFF
+#pragma config CSWEN = ON
+#pragma config FCMEN = ON
+// CONFIG2
+#pragma config MCLRE = ON
+#pragma config PWRTE = OFF
+#pragma config LPBOREN = OFF
+#pragma config BOREN = ON
+#pragma config BORV = LO
+#pragma config ZCD = OFF
+#pragma config PPS1WAY = ON
+#pragma config STVREN = ON
+// CONFIG3
+#pragma config WDTCPS = WDTCPS_31
+#pragma config WDTE = OFF
+#pragma config WDTCWS = WDTCWS_7
+#pragma config WDTCCS = SC
+// CONFIG4
+#pragma config WRT = OFF
+#pragma config SCANE = available
+#pragma config LVP = ON
+// CONFIG5
+#pragma config CP = OFF
+#pragma config CPD = OFF
+
+#include <xc.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#define _XTAL_FREQ 32000000UL
+
+#define APDS_ADDR       0x39
+#define APDS_ENABLE     0x80
+#define APDS_ATIME      0x81
+#define APDS_CONTROL    0x8F
+#define APDS_ID         0x92
+#define APDS_STATUS     0x93
+#define APDS_CDATAL     0x94
+#define APDS_RDATAL     0x96
+#define APDS_GDATAL     0x98
+#define APDS_BDATAL     0x9A
+#define APDS_PON        0x01
+#define APDS_AEN        0x02
+#define APDS_AVALID     0x01
+
+#define SDA_HIGH() TRISCbits.TRISC3 = 1
+#define SDA_LOW()  TRISCbits.TRISC3 = 0; LATCbits.LATC3 = 0
+#define SCL_HIGH() TRISCbits.TRISC4 = 1
+#define SCL_LOW()  TRISCbits.TRISC4 = 0; LATCbits.LATC4 = 0
+#define SDA_READ() PORTCbits.RC3
+#define I2C_DELAY() __delay_us(50)
+
+#define FREQ_RED        262
+#define FREQ_GREEN      349
+#define FREQ_BLUE       440
+
+#define DARK_THRESHOLD   200
+#define COLOUR_THRESHOLD 300
+#define WHITE_RATIO      85
+
+// ============================================================
+// Tone generation via Timer2 ISR
+// ============================================================
+volatile uint16_t tone_half_period = 0;
+volatile uint16_t tone_counter     = 0;
+
+void set_tone(uint16_t freq) {
+    if (freq == 0) {
+        tone_half_period = 0;
+        LATCbits.LATC2   = 0;
+    } else {
+        tone_half_period = (uint16_t)(50000UL / freq);
+    }
+    tone_counter = 0;
+}
+
+void __interrupt() ISR(void) {
+    if (PIR4bits.TMR2IF) {
+        PIR4bits.TMR2IF = 0;
+        if (tone_half_period > 0) {
+            tone_counter++;
+            if (tone_counter >= tone_half_period) {
+                tone_counter   = 0;
+                LATCbits.LATC2 = !LATCbits.LATC2;
+            }
+        }
+    }
+}
+
+// ============================================================
+// Bit-bang I2C
+// ============================================================
+void i2c_init(void) {
+    ANSELCbits.ANSC3 = 0;
+    ANSELCbits.ANSC4 = 0;
+    LATCbits.LATC3   = 0;
+    LATCbits.LATC4   = 0;
+    SDA_HIGH();
+    SCL_HIGH();
+    __delay_ms(10);
+}
+
+void i2c_start(void) {
+    SDA_HIGH(); I2C_DELAY();
+    SCL_HIGH(); I2C_DELAY();
+    SDA_LOW();  I2C_DELAY();
+    SCL_LOW();  I2C_DELAY();
+}
+
+void i2c_stop(void) {
+    SDA_LOW();  I2C_DELAY();
+    SCL_HIGH(); I2C_DELAY();
+    SDA_HIGH(); I2C_DELAY();
+}
+
+uint8_t i2c_write(uint8_t data) {
+    for (uint8_t i = 0; i < 8; i++) {
+        if (data & 0x80) { SDA_HIGH(); }
+        else             { SDA_LOW();  }
+        data <<= 1;
+        I2C_DELAY();
+        SCL_HIGH(); I2C_DELAY();
+        SCL_LOW();  I2C_DELAY();
+    }
+    SDA_HIGH(); I2C_DELAY();
+    SCL_HIGH(); I2C_DELAY();
+    uint8_t ack = SDA_READ();
+    SCL_LOW();  I2C_DELAY();
+    return ack;
+}
+
+uint8_t i2c_read(uint8_t ack) {
+    uint8_t data = 0;
+    SDA_HIGH();
+    for (uint8_t i = 0; i < 8; i++) {
+        data <<= 1;
+        I2C_DELAY();
+        SCL_HIGH(); I2C_DELAY();
+        if (SDA_READ()) data |= 1;
+        SCL_LOW();  I2C_DELAY();
+    }
+    if (ack) { SDA_LOW();  }
+    else     { SDA_HIGH(); }
+    I2C_DELAY();
+    SCL_HIGH(); I2C_DELAY();
+    SCL_LOW();  I2C_DELAY();
+    SDA_HIGH(); I2C_DELAY();
+    return data;
+}
+
+// ============================================================
+// APDS9960 bit-bang
+// ============================================================
+uint8_t apds_read_reg(uint8_t reg) {
+    uint8_t val;
+    i2c_start();
+    i2c_write(APDS_ADDR << 1);
+    i2c_write(reg);
+    i2c_start();
+    i2c_write((APDS_ADDR << 1) | 1);
+    val = i2c_read(0);
+    i2c_stop();
+    return val;
+}
+
+uint8_t apds_write_reg(uint8_t reg, uint8_t val) {
+    i2c_start();
+    i2c_write(APDS_ADDR << 1);
+    i2c_write(reg);
+    i2c_write(val);
+    i2c_stop();
+    return 0;
+}
+
+uint16_t apds_read_word(uint8_t reg_low) {
+    uint8_t lo, hi;
+    i2c_start();
+    i2c_write(APDS_ADDR << 1);
+    i2c_write(reg_low);
+    i2c_start();
+    i2c_write((APDS_ADDR << 1) | 1);
+    lo = i2c_read(1);
+    hi = i2c_read(0);
+    i2c_stop();
+    return ((uint16_t)hi << 8) | lo;
+}
+
+bool apds_init(void) {
+    uint8_t id;
+    __delay_ms(10);
+    id = apds_read_reg(APDS_ID);
+    if (id != 0xAB && id != 0xA8 && id != 0x9C)
+        return false;
+    apds_write_reg(APDS_ATIME,   0xC0);
+    apds_write_reg(APDS_CONTROL, 0x01);
+    apds_write_reg(APDS_ENABLE,  APDS_PON | APDS_AEN);
+    __delay_ms(200);
+    return true;
+}
+
+void apds_wait_valid(void) {
+    uint16_t timeout = 5000;
+    while (!(apds_read_reg(APDS_STATUS) & APDS_AVALID) && timeout--)
+        __delay_ms(1);
+}
+
+// ============================================================
+// Colour classification
+// ============================================================
+typedef enum {
+    COLOUR_DARK, COLOUR_RED, COLOUR_GREEN, COLOUR_BLUE, COLOUR_WHITE
+} ColourID;
+
+ColourID classify_colour(uint16_t r, uint16_t g, uint16_t b, uint16_t c) {
+    if (c < DARK_THRESHOLD) return COLOUR_DARK;
+    uint32_t r_pct = ((uint32_t)r * 100) / c;
+    uint32_t g_pct = ((uint32_t)g * 100) / c;
+    uint32_t b_pct = ((uint32_t)b * 100) / c;
+    if (r_pct > WHITE_RATIO && g_pct > WHITE_RATIO && b_pct > WHITE_RATIO)
+        return COLOUR_WHITE;
+    uint16_t max_val  = r;
+    ColourID dominant = COLOUR_RED;
+    if (g > max_val) { max_val = g; dominant = COLOUR_GREEN; }
+    if (b > max_val) { max_val = b; dominant = COLOUR_BLUE;  }
+    if (max_val < COLOUR_THRESHOLD) return COLOUR_DARK;
+    return dominant;
+}
+
+// ============================================================
+// Main
+// ============================================================
+void main(void) {
+    OSCCON1 = 0x60;
+    OSCFRQ  = 0x06;
+
+    TRISCbits.TRISC2 = 0;
+    ANSELCbits.ANSC2 = 0;
+    ODCONCbits.ODCC2 = 0;
+    LATCbits.LATC2   = 0;
+
+    i2c_init();
+    __delay_ms(100);
+
+    if (!apds_init()) {
+        while(1) {
+            LATCbits.LATC2 = 1; __delay_ms(80);
+            LATCbits.LATC2 = 0; __delay_ms(80);
+        }
+    }
+
+    T2CLKCON         = 0x01;
+    T2CONbits.T2CKPS = 0b011;
+    PR2              = 9;
+    T2CONbits.ON     = 1;
+    PIR4bits.TMR2IF  = 0;
+    PIE4bits.TMR2IE  = 1;
+    INTCONbits.PEIE  = 1;
+    INTCONbits.GIE   = 1;
+
+    set_tone(FREQ_RED);   __delay_ms(500);
+    set_tone(FREQ_GREEN); __delay_ms(500);
+    set_tone(FREQ_BLUE);  __delay_ms(500);
+    set_tone(0);          __delay_ms(300);
+
+    uint16_t r, g, b, c;
+    ColourID last_colour    = COLOUR_DARK;
+    ColourID current_colour;
+
+    while (1) {
+        T2CONbits.ON   = 0;
+        INTCONbits.GIE = 0;
+
+        apds_wait_valid();
+        c = apds_read_word(APDS_CDATAL);
+        r = apds_read_word(APDS_RDATAL);
+        g = apds_read_word(APDS_GDATAL);
+        b = apds_read_word(APDS_BDATAL);
+
+        T2CONbits.ON   = 1;
+        INTCONbits.GIE = 1;
+
+        current_colour = classify_colour(r, g, b, c);
+
+        if (current_colour != last_colour) {
+            last_colour = current_colour;
+            switch (current_colour) {
+                case COLOUR_RED:   set_tone(FREQ_RED);   break;
+                case COLOUR_GREEN: set_tone(FREQ_GREEN); break;
+                case COLOUR_BLUE:  set_tone(FREQ_BLUE);  break;
+                case COLOUR_WHITE:
+                case COLOUR_DARK:  set_tone(0);          break;
+            }
+        }
+        __delay_ms(50);
+    }
+}

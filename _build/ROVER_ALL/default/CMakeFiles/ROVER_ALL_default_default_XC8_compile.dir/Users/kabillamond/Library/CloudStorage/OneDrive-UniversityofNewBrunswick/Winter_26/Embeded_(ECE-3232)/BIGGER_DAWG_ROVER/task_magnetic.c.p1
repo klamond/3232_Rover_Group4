@@ -1,0 +1,1919 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"32849 /Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32849:     struct {
+[s S1471 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1471 . ANSA0 ANSA1 ANSA2 ANSA3 ANSA4 ANSA5 ANSA6 ANSA7 ]
+"32848
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32848: typedef union {
+[u S1470 `S1471 1 ]
+[n S1470 . . ]
+"32860
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32860: extern volatile ANSELAbits_t ANSELAbits __attribute__((address(0xF38)));
+[v _ANSELAbits `VS1470 ~T0 @X0 0 e@3896 ]
+"581
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 581:     struct {
+[s S41 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S41 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"580
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 580: typedef union {
+[u S40 `S41 1 ]
+[n S40 . . ]
+"592
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 592: extern volatile TRISAbits_t TRISAbits __attribute__((address(0x011)));
+[v _TRISAbits `VS40 ~T0 @X0 0 e@17 ]
+"767
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 767:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 LATA7 ]
+"766
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 766: typedef union {
+[u S46 `S47 1 ]
+[n S46 . . ]
+"778
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 778: extern volatile LATAbits_t LATAbits __attribute__((address(0x016)));
+[v _LATAbits `VS46 ~T0 @X0 0 e@22 ]
+"33469
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33469:     struct {
+[s S1491 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1491 . ANSB0 ANSB1 ANSB2 ANSB3 ANSB4 ANSB5 ANSB6 ANSB7 ]
+"33468
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33468: typedef union {
+[u S1490 `S1491 1 ]
+[n S1490 . . ]
+"33480
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33480: extern volatile ANSELBbits_t ANSELBbits __attribute__((address(0xF43)));
+[v _ANSELBbits `VS1490 ~T0 @X0 0 e@3907 ]
+"643
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 643:     struct {
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"642
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 642: typedef union {
+[u S42 `S43 1 ]
+[n S42 . . ]
+"654
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 654: extern volatile TRISBbits_t TRISBbits __attribute__((address(0x012)));
+[v _TRISBbits `VS42 ~T0 @X0 0 e@18 ]
+"2217
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2217:     struct {
+[s S108 :6 `uc 1 ]
+[n S108 . ADCCS ]
+"2220
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2220:     struct {
+[s S109 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S109 . ADCCS0 ADCCS1 ADCCS2 ADCCS3 ADCCS4 ADCCS5 ]
+"2216
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2216: typedef union {
+[u S107 `S108 1 `S109 1 ]
+[n S107 . . . ]
+"2229
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2229: extern volatile ADCLKbits_t ADCLKbits __attribute__((address(0x098)));
+[v _ADCLKbits `VS107 ~T0 @X0 0 e@152 ]
+"2327
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2327:     struct {
+[s S114 :2 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S114 . ADPREF . ADNREF ]
+"2332
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2332:     struct {
+[s S115 :1 `uc 1 :1 `uc 1 ]
+[n S115 . ADPREF0 ADPREF1 ]
+"2326
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2326: typedef union {
+[u S113 `S114 1 `S115 1 ]
+[n S113 . . . ]
+"2337
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2337: extern volatile ADREFbits_t ADREFbits __attribute__((address(0x09A)));
+[v _ADREFbits `VS113 ~T0 @X0 0 e@154 ]
+"2554
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2554: extern volatile unsigned char ADPCH __attribute__((address(0x09E)));
+[v _ADPCH `Vuc ~T0 @X0 0 e@158 ]
+"2484
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2484: extern volatile unsigned char ADACQ __attribute__((address(0x09D)));
+[v _ADACQ `Vuc ~T0 @X0 0 e@157 ]
+"1849
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1849:     struct {
+[s S91 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S91 . ADGO . ADFM ADCS . ADCONT ADON ]
+"1858
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1858:     struct {
+[s S92 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S92 . DONE . ADFRM ]
+"1863
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1863:     struct {
+[s S93 :1 `uc 1 ]
+[n S93 . nDONE ]
+"1866
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1866:     struct {
+[s S94 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S94 . GO . ADFM0 ADFM1 ]
+"1872
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1872:     struct {
+[s S95 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S95 . GO_nDONE . ADFRM0 ADFRM1 ]
+"1848
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1848: typedef union {
+[u S90 `S91 1 `S92 1 `S93 1 `S94 1 `S95 1 ]
+[n S90 . . . . . . ]
+"1879
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1879: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x093)));
+[v _ADCON0bits `VS90 ~T0 @X0 0 e@147 ]
+"341
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 341:     struct {
+[s S31 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . INTEDG . PEIE GIE ]
+"340
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 340: typedef union {
+[u S30 `S31 1 ]
+[n S30 . . ]
+"348
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 348: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"7 /Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h: 7: extern uint8_t comms_payload[21];
+[v _comms_payload `uc ~T0 @X0 -> 0 `x e ]
+"1542 /Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1542: extern volatile unsigned char ADRESH __attribute__((address(0x08D)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@141 ]
+"1522
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1522: extern volatile unsigned char ADRESL __attribute__((address(0x08C)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@140 ]
+"18 /Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h: 18: void comms_send_mag_info(uint8_t pyramid_num);
+[v _comms_send_mag_info `(v ~T0 @X0 0 ef1`uc ]
+"38 /Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 38: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"58
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 58: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"78
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 78: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"98
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 98: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 161: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"181
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 181: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"205
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 205: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"225
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 225: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"245
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 245: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"297
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 297: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"317
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 317: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"337
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 337: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"370
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 370: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"432
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 432: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"494
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 494: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"556
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 556: __asm("PORTE equ 010h");
+[; <" PORTE equ 010h ;# ">
+"577
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 577: __asm("TRISA equ 011h");
+[; <" TRISA equ 011h ;# ">
+"639
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 639: __asm("TRISB equ 012h");
+[; <" TRISB equ 012h ;# ">
+"701
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 701: __asm("TRISC equ 013h");
+[; <" TRISC equ 013h ;# ">
+"763
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 763: __asm("LATA equ 016h");
+[; <" LATA equ 016h ;# ">
+"825
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 825: __asm("LATB equ 017h");
+[; <" LATB equ 017h ;# ">
+"887
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 887: __asm("LATC equ 018h");
+[; <" LATC equ 018h ;# ">
+"949
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 949: __asm("TMR0L equ 01Ch");
+[; <" TMR0L equ 01Ch ;# ">
+"954
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 954: __asm("TMR0 equ 01Ch");
+[; <" TMR0 equ 01Ch ;# ">
+"1087
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1087: __asm("TMR0H equ 01Dh");
+[; <" TMR0H equ 01Dh ;# ">
+"1092
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1092: __asm("PR0 equ 01Dh");
+[; <" PR0 equ 01Dh ;# ">
+"1341
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1341: __asm("T0CON0 equ 01Eh");
+[; <" T0CON0 equ 01Eh ;# ">
+"1406
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1406: __asm("T0CON1 equ 01Fh");
+[; <" T0CON1 equ 01Fh ;# ">
+"1517
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1517: __asm("ADRES equ 08Ch");
+[; <" ADRES equ 08Ch ;# ">
+"1524
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1524: __asm("ADRESL equ 08Ch");
+[; <" ADRESL equ 08Ch ;# ">
+"1544
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1544: __asm("ADRESH equ 08Dh");
+[; <" ADRESH equ 08Dh ;# ">
+"1551
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1551: __asm("ADPREV equ 08Eh");
+[; <" ADPREV equ 08Eh ;# ">
+"1558
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1558: __asm("ADPREVL equ 08Eh");
+[; <" ADPREVL equ 08Eh ;# ">
+"1628
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1628: __asm("ADPREVH equ 08Fh");
+[; <" ADPREVH equ 08Fh ;# ">
+"1698
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1698: __asm("ADACC equ 090h");
+[; <" ADACC equ 090h ;# ">
+"1705
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1705: __asm("ADACCL equ 090h");
+[; <" ADACCL equ 090h ;# ">
+"1775
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1775: __asm("ADACCH equ 091h");
+[; <" ADACCH equ 091h ;# ">
+"1845
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1845: __asm("ADCON0 equ 093h");
+[; <" ADCON0 equ 093h ;# ">
+"1956
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1956: __asm("ADCON1 equ 094h");
+[; <" ADCON1 equ 094h ;# ">
+"1995
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 1995: __asm("ADCON2 equ 095h");
+[; <" ADCON2 equ 095h ;# ">
+"2072
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2072: __asm("ADCON3 equ 096h");
+[; <" ADCON3 equ 096h ;# ">
+"2143
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2143: __asm("ADSTAT equ 097h");
+[; <" ADSTAT equ 097h ;# ">
+"2213
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2213: __asm("ADCLK equ 098h");
+[; <" ADCLK equ 098h ;# ">
+"2271
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2271: __asm("ADACT equ 099h");
+[; <" ADACT equ 099h ;# ">
+"2323
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2323: __asm("ADREF equ 09Ah");
+[; <" ADREF equ 09Ah ;# ">
+"2364
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2364: __asm("ADCAP equ 09Bh");
+[; <" ADCAP equ 09Bh ;# ">
+"2416
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2416: __asm("ADPRE equ 09Ch");
+[; <" ADPRE equ 09Ch ;# ">
+"2486
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2486: __asm("ADACQ equ 09Dh");
+[; <" ADACQ equ 09Dh ;# ">
+"2556
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2556: __asm("ADPCH equ 09Eh");
+[; <" ADPCH equ 09Eh ;# ">
+"2614
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2614: __asm("ADCNT equ 010Ch");
+[; <" ADCNT equ 010Ch ;# ">
+"2684
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2684: __asm("ADRPT equ 010Dh");
+[; <" ADRPT equ 010Dh ;# ">
+"2754
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2754: __asm("ADLTH equ 010Eh");
+[; <" ADLTH equ 010Eh ;# ">
+"2761
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2761: __asm("ADLTHL equ 010Eh");
+[; <" ADLTHL equ 010Eh ;# ">
+"2831
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2831: __asm("ADLTHH equ 010Fh");
+[; <" ADLTHH equ 010Fh ;# ">
+"2901
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2901: __asm("ADUTH equ 0110h");
+[; <" ADUTH equ 0110h ;# ">
+"2908
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2908: __asm("ADUTHL equ 0110h");
+[; <" ADUTHL equ 0110h ;# ">
+"2978
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 2978: __asm("ADUTHH equ 0111h");
+[; <" ADUTHH equ 0111h ;# ">
+"3048
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3048: __asm("ADSTPT equ 0112h");
+[; <" ADSTPT equ 0112h ;# ">
+"3055
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3055: __asm("ADSTPTL equ 0112h");
+[; <" ADSTPTL equ 0112h ;# ">
+"3125
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3125: __asm("ADSTPTH equ 0113h");
+[; <" ADSTPTH equ 0113h ;# ">
+"3195
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3195: __asm("ADFLTR equ 0114h");
+[; <" ADFLTR equ 0114h ;# ">
+"3202
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3202: __asm("ADFLTRL equ 0114h");
+[; <" ADFLTRL equ 0114h ;# ">
+"3272
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3272: __asm("ADFLTRH equ 0115h");
+[; <" ADFLTRH equ 0115h ;# ">
+"3342
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3342: __asm("ADERR equ 0116h");
+[; <" ADERR equ 0116h ;# ">
+"3349
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3349: __asm("ADERRL equ 0116h");
+[; <" ADERRL equ 0116h ;# ">
+"3419
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3419: __asm("ADERRH equ 0117h");
+[; <" ADERRH equ 0117h ;# ">
+"3489
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3489: __asm("RC1REG equ 0119h");
+[; <" RC1REG equ 0119h ;# ">
+"3494
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3494: __asm("RCREG equ 0119h");
+[; <" RCREG equ 0119h ;# ">
+"3498
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3498: __asm("RCREG1 equ 0119h");
+[; <" RCREG1 equ 0119h ;# ">
+"3543
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3543: __asm("TX1REG equ 011Ah");
+[; <" TX1REG equ 011Ah ;# ">
+"3548
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3548: __asm("TXREG1 equ 011Ah");
+[; <" TXREG1 equ 011Ah ;# ">
+"3552
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3552: __asm("TXREG equ 011Ah");
+[; <" TXREG equ 011Ah ;# ">
+"3597
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3597: __asm("SP1BRG equ 011Bh");
+[; <" SP1BRG equ 011Bh ;# ">
+"3602
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3602: __asm("SPBRG equ 011Bh");
+[; <" SPBRG equ 011Bh ;# ">
+"3609
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3609: __asm("SP1BRGL equ 011Bh");
+[; <" SP1BRGL equ 011Bh ;# ">
+"3614
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3614: __asm("SPBRG1 equ 011Bh");
+[; <" SPBRG1 equ 011Bh ;# ">
+"3618
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3618: __asm("SPBRGL equ 011Bh");
+[; <" SPBRGL equ 011Bh ;# ">
+"3663
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3663: __asm("SP1BRGH equ 011Ch");
+[; <" SP1BRGH equ 011Ch ;# ">
+"3668
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3668: __asm("SPBRGH equ 011Ch");
+[; <" SPBRGH equ 011Ch ;# ">
+"3672
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3672: __asm("SPBRGH1 equ 011Ch");
+[; <" SPBRGH1 equ 011Ch ;# ">
+"3717
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3717: __asm("RC1STA equ 011Dh");
+[; <" RC1STA equ 011Dh ;# ">
+"3722
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3722: __asm("RCSTA1 equ 011Dh");
+[; <" RCSTA1 equ 011Dh ;# ">
+"3726
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3726: __asm("RCSTA equ 011Dh");
+[; <" RCSTA equ 011Dh ;# ">
+"3897
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3897: __asm("TX1STA equ 011Eh");
+[; <" TX1STA equ 011Eh ;# ">
+"3902
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3902: __asm("TXSTA1 equ 011Eh");
+[; <" TXSTA1 equ 011Eh ;# ">
+"3906
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 3906: __asm("TXSTA equ 011Eh");
+[; <" TXSTA equ 011Eh ;# ">
+"4077
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4077: __asm("BAUD1CON equ 011Fh");
+[; <" BAUD1CON equ 011Fh ;# ">
+"4082
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4082: __asm("BAUDCON1 equ 011Fh");
+[; <" BAUDCON1 equ 011Fh ;# ">
+"4086
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4086: __asm("BAUDCTL1 equ 011Fh");
+[; <" BAUDCTL1 equ 011Fh ;# ">
+"4090
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4090: __asm("BAUDCON equ 011Fh");
+[; <" BAUDCON equ 011Fh ;# ">
+"4094
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4094: __asm("BAUDCTL equ 011Fh");
+[; <" BAUDCTL equ 011Fh ;# ">
+"4323
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4323: __asm("SSP1BUF equ 018Ch");
+[; <" SSP1BUF equ 018Ch ;# ">
+"4343
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4343: __asm("SSP1ADD equ 018Dh");
+[; <" SSP1ADD equ 018Dh ;# ">
+"4463
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4463: __asm("SSP1MSK equ 018Eh");
+[; <" SSP1MSK equ 018Eh ;# ">
+"4533
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4533: __asm("SSP1STAT equ 018Fh");
+[; <" SSP1STAT equ 018Fh ;# ">
+"4897
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 4897: __asm("SSP1CON1 equ 0190h");
+[; <" SSP1CON1 equ 0190h ;# ">
+"5017
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5017: __asm("SSP1CON2 equ 0191h");
+[; <" SSP1CON2 equ 0191h ;# ">
+"5204
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5204: __asm("SSP1CON3 equ 0192h");
+[; <" SSP1CON3 equ 0192h ;# ">
+"5266
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5266: __asm("SSP2BUF equ 0196h");
+[; <" SSP2BUF equ 0196h ;# ">
+"5286
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5286: __asm("SSP2ADD equ 0197h");
+[; <" SSP2ADD equ 0197h ;# ">
+"5406
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5406: __asm("SSP2MSK equ 0198h");
+[; <" SSP2MSK equ 0198h ;# ">
+"5476
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5476: __asm("SSP2STAT equ 0199h");
+[; <" SSP2STAT equ 0199h ;# ">
+"5840
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5840: __asm("SSP2CON1 equ 019Ah");
+[; <" SSP2CON1 equ 019Ah ;# ">
+"5960
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 5960: __asm("SSP2CON2 equ 019Bh");
+[; <" SSP2CON2 equ 019Bh ;# ">
+"6147
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6147: __asm("SSP2CON3 equ 019Ch");
+[; <" SSP2CON3 equ 019Ch ;# ">
+"6209
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6209: __asm("TMR1 equ 020Ch");
+[; <" TMR1 equ 020Ch ;# ">
+"6216
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6216: __asm("TMR1L equ 020Ch");
+[; <" TMR1L equ 020Ch ;# ">
+"6386
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6386: __asm("TMR1H equ 020Dh");
+[; <" TMR1H equ 020Dh ;# ">
+"6506
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6506: __asm("T1CON equ 020Eh");
+[; <" T1CON equ 020Eh ;# ">
+"6602
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6602: __asm("T1GCON equ 020Fh");
+[; <" T1GCON equ 020Fh ;# ">
+"6607
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6607: __asm("PR1 equ 020Fh");
+[; <" PR1 equ 020Fh ;# ">
+"6798
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6798: __asm("T1GATE equ 0210h");
+[; <" T1GATE equ 0210h ;# ">
+"6803
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6803: __asm("TMR1GATE equ 0210h");
+[; <" TMR1GATE equ 0210h ;# ">
+"6964
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6964: __asm("T1CLK equ 0211h");
+[; <" T1CLK equ 0211h ;# ">
+"6969
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 6969: __asm("TMR1CLK equ 0211h");
+[; <" TMR1CLK equ 0211h ;# ">
+"7106
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7106: __asm("TMR3 equ 0212h");
+[; <" TMR3 equ 0212h ;# ">
+"7113
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7113: __asm("TMR3L equ 0212h");
+[; <" TMR3L equ 0212h ;# ">
+"7283
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7283: __asm("TMR3H equ 0213h");
+[; <" TMR3H equ 0213h ;# ">
+"7403
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7403: __asm("T3CON equ 0214h");
+[; <" T3CON equ 0214h ;# ">
+"7499
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7499: __asm("T3GCON equ 0215h");
+[; <" T3GCON equ 0215h ;# ">
+"7504
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7504: __asm("PR3 equ 0215h");
+[; <" PR3 equ 0215h ;# ">
+"7695
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7695: __asm("T3GATE equ 0216h");
+[; <" T3GATE equ 0216h ;# ">
+"7700
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7700: __asm("TMR3GATE equ 0216h");
+[; <" TMR3GATE equ 0216h ;# ">
+"7861
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7861: __asm("T3CLK equ 0217h");
+[; <" T3CLK equ 0217h ;# ">
+"7866
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 7866: __asm("TMR3CLK equ 0217h");
+[; <" TMR3CLK equ 0217h ;# ">
+"8003
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8003: __asm("TMR5 equ 0218h");
+[; <" TMR5 equ 0218h ;# ">
+"8010
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8010: __asm("TMR5L equ 0218h");
+[; <" TMR5L equ 0218h ;# ">
+"8180
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8180: __asm("TMR5H equ 0219h");
+[; <" TMR5H equ 0219h ;# ">
+"8300
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8300: __asm("T5CON equ 021Ah");
+[; <" T5CON equ 021Ah ;# ">
+"8396
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8396: __asm("T5GCON equ 021Bh");
+[; <" T5GCON equ 021Bh ;# ">
+"8401
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8401: __asm("PR5 equ 021Bh");
+[; <" PR5 equ 021Bh ;# ">
+"8592
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8592: __asm("T5GATE equ 021Ch");
+[; <" T5GATE equ 021Ch ;# ">
+"8597
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8597: __asm("TMR5GATE equ 021Ch");
+[; <" TMR5GATE equ 021Ch ;# ">
+"8758
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8758: __asm("T5CLK equ 021Dh");
+[; <" T5CLK equ 021Dh ;# ">
+"8763
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8763: __asm("TMR5CLK equ 021Dh");
+[; <" TMR5CLK equ 021Dh ;# ">
+"8900
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8900: __asm("CCPTMRS0 equ 021Eh");
+[; <" CCPTMRS0 equ 021Eh ;# ">
+"8988
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 8988: __asm("CCPTMRS1 equ 021Fh");
+[; <" CCPTMRS1 equ 021Fh ;# ">
+"9058
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9058: __asm("T2TMR equ 028Ch");
+[; <" T2TMR equ 028Ch ;# ">
+"9063
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9063: __asm("TMR2 equ 028Ch");
+[; <" TMR2 equ 028Ch ;# ">
+"9096
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9096: __asm("T2PR equ 028Dh");
+[; <" T2PR equ 028Dh ;# ">
+"9101
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9101: __asm("PR2 equ 028Dh");
+[; <" PR2 equ 028Dh ;# ">
+"9134
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9134: __asm("T2CON equ 028Eh");
+[; <" T2CON equ 028Eh ;# ">
+"9280
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9280: __asm("T2HLT equ 028Fh");
+[; <" T2HLT equ 028Fh ;# ">
+"9408
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9408: __asm("T2CLKCON equ 0290h");
+[; <" T2CLKCON equ 0290h ;# ">
+"9413
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9413: __asm("T2CLK equ 0290h");
+[; <" T2CLK equ 0290h ;# ">
+"9566
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9566: __asm("T2RST equ 0291h");
+[; <" T2RST equ 0291h ;# ">
+"9658
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9658: __asm("T4TMR equ 0292h");
+[; <" T4TMR equ 0292h ;# ">
+"9663
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9663: __asm("TMR4 equ 0292h");
+[; <" TMR4 equ 0292h ;# ">
+"9696
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9696: __asm("T4PR equ 0293h");
+[; <" T4PR equ 0293h ;# ">
+"9701
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9701: __asm("PR4 equ 0293h");
+[; <" PR4 equ 0293h ;# ">
+"9734
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9734: __asm("T4CON equ 0294h");
+[; <" T4CON equ 0294h ;# ">
+"9880
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 9880: __asm("T4HLT equ 0295h");
+[; <" T4HLT equ 0295h ;# ">
+"10008
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10008: __asm("T4CLKCON equ 0296h");
+[; <" T4CLKCON equ 0296h ;# ">
+"10013
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10013: __asm("T4CLK equ 0296h");
+[; <" T4CLK equ 0296h ;# ">
+"10166
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10166: __asm("T4RST equ 0297h");
+[; <" T4RST equ 0297h ;# ">
+"10258
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10258: __asm("T6TMR equ 0298h");
+[; <" T6TMR equ 0298h ;# ">
+"10263
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10263: __asm("TMR6 equ 0298h");
+[; <" TMR6 equ 0298h ;# ">
+"10296
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10296: __asm("T6PR equ 0299h");
+[; <" T6PR equ 0299h ;# ">
+"10301
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10301: __asm("PR6 equ 0299h");
+[; <" PR6 equ 0299h ;# ">
+"10334
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10334: __asm("T6CON equ 029Ah");
+[; <" T6CON equ 029Ah ;# ">
+"10480
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10480: __asm("T6HLT equ 029Bh");
+[; <" T6HLT equ 029Bh ;# ">
+"10608
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10608: __asm("T6CLKCON equ 029Ch");
+[; <" T6CLKCON equ 029Ch ;# ">
+"10613
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10613: __asm("T6CLK equ 029Ch");
+[; <" T6CLK equ 029Ch ;# ">
+"10766
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10766: __asm("T6RST equ 029Dh");
+[; <" T6RST equ 029Dh ;# ">
+"10858
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10858: __asm("CCPR1 equ 030Ch");
+[; <" CCPR1 equ 030Ch ;# ">
+"10865
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10865: __asm("CCPR1L equ 030Ch");
+[; <" CCPR1L equ 030Ch ;# ">
+"10885
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10885: __asm("CCPR1H equ 030Dh");
+[; <" CCPR1H equ 030Dh ;# ">
+"10905
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 10905: __asm("CCP1CON equ 030Eh");
+[; <" CCP1CON equ 030Eh ;# ">
+"11023
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11023: __asm("CCP1CAP equ 030Fh");
+[; <" CCP1CAP equ 030Fh ;# ">
+"11091
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11091: __asm("CCPR2 equ 0310h");
+[; <" CCPR2 equ 0310h ;# ">
+"11098
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11098: __asm("CCPR2L equ 0310h");
+[; <" CCPR2L equ 0310h ;# ">
+"11118
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11118: __asm("CCPR2H equ 0311h");
+[; <" CCPR2H equ 0311h ;# ">
+"11138
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11138: __asm("CCP2CON equ 0312h");
+[; <" CCP2CON equ 0312h ;# ">
+"11256
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11256: __asm("CCP2CAP equ 0313h");
+[; <" CCP2CAP equ 0313h ;# ">
+"11324
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11324: __asm("CCPR3 equ 0314h");
+[; <" CCPR3 equ 0314h ;# ">
+"11331
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11331: __asm("CCPR3L equ 0314h");
+[; <" CCPR3L equ 0314h ;# ">
+"11351
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11351: __asm("CCPR3H equ 0315h");
+[; <" CCPR3H equ 0315h ;# ">
+"11371
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11371: __asm("CCP3CON equ 0316h");
+[; <" CCP3CON equ 0316h ;# ">
+"11489
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11489: __asm("CCP3CAP equ 0317h");
+[; <" CCP3CAP equ 0317h ;# ">
+"11557
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11557: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"11564
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11564: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"11584
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11584: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"11604
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11604: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"11722
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11722: __asm("CCP4CAP equ 031Bh");
+[; <" CCP4CAP equ 031Bh ;# ">
+"11790
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11790: __asm("CCPR5 equ 031Ch");
+[; <" CCPR5 equ 031Ch ;# ">
+"11797
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11797: __asm("CCPR5L equ 031Ch");
+[; <" CCPR5L equ 031Ch ;# ">
+"11817
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11817: __asm("CCPR5H equ 031Dh");
+[; <" CCPR5H equ 031Dh ;# ">
+"11837
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11837: __asm("CCP5CON equ 031Eh");
+[; <" CCP5CON equ 031Eh ;# ">
+"11955
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 11955: __asm("CCP5CAP equ 031Fh");
+[; <" CCP5CAP equ 031Fh ;# ">
+"12023
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12023: __asm("PWM6DC equ 038Ch");
+[; <" PWM6DC equ 038Ch ;# ">
+"12030
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12030: __asm("PWM6DCL equ 038Ch");
+[; <" PWM6DCL equ 038Ch ;# ">
+"12096
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12096: __asm("PWM6DCH equ 038Dh");
+[; <" PWM6DCH equ 038Dh ;# ">
+"12266
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12266: __asm("PWM6CON equ 038Eh");
+[; <" PWM6CON equ 038Eh ;# ">
+"12322
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12322: __asm("PWM7DC equ 0390h");
+[; <" PWM7DC equ 0390h ;# ">
+"12329
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12329: __asm("PWM7DCL equ 0390h");
+[; <" PWM7DCL equ 0390h ;# ">
+"12395
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12395: __asm("PWM7DCH equ 0391h");
+[; <" PWM7DCH equ 0391h ;# ">
+"12565
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12565: __asm("PWM7CON equ 0392h");
+[; <" PWM7CON equ 0392h ;# ">
+"12621
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12621: __asm("SCANLADRL equ 040Ch");
+[; <" SCANLADRL equ 040Ch ;# ">
+"12749
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12749: __asm("SCANLADRH equ 040Dh");
+[; <" SCANLADRH equ 040Dh ;# ">
+"12877
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 12877: __asm("SCANHADRL equ 040Eh");
+[; <" SCANHADRL equ 040Eh ;# ">
+"13005
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13005: __asm("SCANHADRH equ 040Fh");
+[; <" SCANHADRH equ 040Fh ;# ">
+"13133
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13133: __asm("SCANCON0 equ 0410h");
+[; <" SCANCON0 equ 0410h ;# ">
+"13255
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13255: __asm("SCANTRIG equ 0411h");
+[; <" SCANTRIG equ 0411h ;# ">
+"13335
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13335: __asm("CRCDATA equ 0416h");
+[; <" CRCDATA equ 0416h ;# ">
+"13342
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13342: __asm("CRCDATL equ 0416h");
+[; <" CRCDATL equ 0416h ;# ">
+"13404
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13404: __asm("CRCDATH equ 0417h");
+[; <" CRCDATH equ 0417h ;# ">
+"13466
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13466: __asm("CRCACC equ 0418h");
+[; <" CRCACC equ 0418h ;# ">
+"13473
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13473: __asm("CRCACCL equ 0418h");
+[; <" CRCACCL equ 0418h ;# ">
+"13535
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13535: __asm("CRCACCH equ 0419h");
+[; <" CRCACCH equ 0419h ;# ">
+"13597
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13597: __asm("CRCSHFT equ 041Ah");
+[; <" CRCSHFT equ 041Ah ;# ">
+"13604
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13604: __asm("CRCSHIFTL equ 041Ah");
+[; <" CRCSHIFTL equ 041Ah ;# ">
+"13666
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13666: __asm("CRCSHIFTH equ 041Bh");
+[; <" CRCSHIFTH equ 041Bh ;# ">
+"13728
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13728: __asm("CRCXOR equ 041Ch");
+[; <" CRCXOR equ 041Ch ;# ">
+"13735
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13735: __asm("CRCXORL equ 041Ch");
+[; <" CRCXORL equ 041Ch ;# ">
+"13792
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13792: __asm("CRCXORH equ 041Dh");
+[; <" CRCXORH equ 041Dh ;# ">
+"13854
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13854: __asm("CRCCON0 equ 041Eh");
+[; <" CRCCON0 equ 041Eh ;# ">
+"13914
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13914: __asm("CRCCON1 equ 041Fh");
+[; <" CRCCON1 equ 041Fh ;# ">
+"13992
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13992: __asm("SMT1TMR equ 048Ch");
+[; <" SMT1TMR equ 048Ch ;# ">
+"13999
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 13999: __asm("SMT1TMRL equ 048Ch");
+[; <" SMT1TMRL equ 048Ch ;# ">
+"14127
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14127: __asm("SMT1TMRH equ 048Dh");
+[; <" SMT1TMRH equ 048Dh ;# ">
+"14255
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14255: __asm("SMT1TMRU equ 048Eh");
+[; <" SMT1TMRU equ 048Eh ;# ">
+"14385
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14385: __asm("SMT1CPR equ 048Fh");
+[; <" SMT1CPR equ 048Fh ;# ">
+"14392
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14392: __asm("SMT1CPRL equ 048Fh");
+[; <" SMT1CPRL equ 048Fh ;# ">
+"14520
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14520: __asm("SMT1CPRH equ 0490h");
+[; <" SMT1CPRH equ 0490h ;# ">
+"14648
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14648: __asm("SMT1CPRU equ 0491h");
+[; <" SMT1CPRU equ 0491h ;# ">
+"14778
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14778: __asm("SMT1CPW equ 0492h");
+[; <" SMT1CPW equ 0492h ;# ">
+"14785
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14785: __asm("SMT1CPWL equ 0492h");
+[; <" SMT1CPWL equ 0492h ;# ">
+"14913
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 14913: __asm("SMT1CPWH equ 0493h");
+[; <" SMT1CPWH equ 0493h ;# ">
+"15041
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15041: __asm("SMT1CPWU equ 0494h");
+[; <" SMT1CPWU equ 0494h ;# ">
+"15171
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15171: __asm("SMT1PR equ 0495h");
+[; <" SMT1PR equ 0495h ;# ">
+"15178
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15178: __asm("SMT1PRL equ 0495h");
+[; <" SMT1PRL equ 0495h ;# ">
+"15306
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15306: __asm("SMT1PRH equ 0496h");
+[; <" SMT1PRH equ 0496h ;# ">
+"15434
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15434: __asm("SMT1PRU equ 0497h");
+[; <" SMT1PRU equ 0497h ;# ">
+"15562
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15562: __asm("SMT1CON0 equ 0498h");
+[; <" SMT1CON0 equ 0498h ;# ">
+"15680
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15680: __asm("SMT1CON1 equ 0499h");
+[; <" SMT1CON1 equ 0499h ;# ">
+"15760
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15760: __asm("SMT1STAT equ 049Ah");
+[; <" SMT1STAT equ 049Ah ;# ">
+"15859
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15859: __asm("SMT1CLK equ 049Bh");
+[; <" SMT1CLK equ 049Bh ;# ">
+"15927
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 15927: __asm("SMT1SIG equ 049Ch");
+[; <" SMT1SIG equ 049Ch ;# ">
+"16019
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16019: __asm("SMT1WIN equ 049Dh");
+[; <" SMT1WIN equ 049Dh ;# ">
+"16113
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16113: __asm("SMT2TMR equ 050Ch");
+[; <" SMT2TMR equ 050Ch ;# ">
+"16120
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16120: __asm("SMT2TMRL equ 050Ch");
+[; <" SMT2TMRL equ 050Ch ;# ">
+"16248
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16248: __asm("SMT2TMRH equ 050Dh");
+[; <" SMT2TMRH equ 050Dh ;# ">
+"16376
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16376: __asm("SMT2TMRU equ 050Eh");
+[; <" SMT2TMRU equ 050Eh ;# ">
+"16506
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16506: __asm("SMT2CPR equ 050Fh");
+[; <" SMT2CPR equ 050Fh ;# ">
+"16513
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16513: __asm("SMT2CPRL equ 050Fh");
+[; <" SMT2CPRL equ 050Fh ;# ">
+"16641
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16641: __asm("SMT2CPRH equ 0510h");
+[; <" SMT2CPRH equ 0510h ;# ">
+"16769
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16769: __asm("SMT2CPRU equ 0511h");
+[; <" SMT2CPRU equ 0511h ;# ">
+"16899
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16899: __asm("SMT2CPW equ 0512h");
+[; <" SMT2CPW equ 0512h ;# ">
+"16906
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 16906: __asm("SMT2CPWL equ 0512h");
+[; <" SMT2CPWL equ 0512h ;# ">
+"17034
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17034: __asm("SMT2CPWH equ 0513h");
+[; <" SMT2CPWH equ 0513h ;# ">
+"17162
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17162: __asm("SMT2CPWU equ 0514h");
+[; <" SMT2CPWU equ 0514h ;# ">
+"17292
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17292: __asm("SMT2PR equ 0515h");
+[; <" SMT2PR equ 0515h ;# ">
+"17299
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17299: __asm("SMT2PRL equ 0515h");
+[; <" SMT2PRL equ 0515h ;# ">
+"17427
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17427: __asm("SMT2PRH equ 0516h");
+[; <" SMT2PRH equ 0516h ;# ">
+"17555
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17555: __asm("SMT2PRU equ 0517h");
+[; <" SMT2PRU equ 0517h ;# ">
+"17683
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17683: __asm("SMT2CON0 equ 0518h");
+[; <" SMT2CON0 equ 0518h ;# ">
+"17801
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17801: __asm("SMT2CON1 equ 0519h");
+[; <" SMT2CON1 equ 0519h ;# ">
+"17881
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17881: __asm("SMT2STAT equ 051Ah");
+[; <" SMT2STAT equ 051Ah ;# ">
+"17980
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 17980: __asm("SMT2CLK equ 051Bh");
+[; <" SMT2CLK equ 051Bh ;# ">
+"18048
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18048: __asm("SMT2SIG equ 051Ch");
+[; <" SMT2SIG equ 051Ch ;# ">
+"18140
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18140: __asm("SMT2WIN equ 051Dh");
+[; <" SMT2WIN equ 051Dh ;# ">
+"18234
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18234: __asm("NCO1ACC equ 058Ch");
+[; <" NCO1ACC equ 058Ch ;# ">
+"18241
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18241: __asm("NCO1ACCL equ 058Ch");
+[; <" NCO1ACCL equ 058Ch ;# ">
+"18311
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18311: __asm("NCO1ACCH equ 058Dh");
+[; <" NCO1ACCH equ 058Dh ;# ">
+"18381
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18381: __asm("NCO1ACCU equ 058Eh");
+[; <" NCO1ACCU equ 058Eh ;# ">
+"18429
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18429: __asm("NCO1INC equ 058Fh");
+[; <" NCO1INC equ 058Fh ;# ">
+"18436
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18436: __asm("NCO1INCL equ 058Fh");
+[; <" NCO1INCL equ 058Fh ;# ">
+"18506
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18506: __asm("NCO1INCH equ 0590h");
+[; <" NCO1INCH equ 0590h ;# ">
+"18576
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18576: __asm("NCO1INCU equ 0591h");
+[; <" NCO1INCU equ 0591h ;# ">
+"18622
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18622: __asm("NCO1CON equ 0592h");
+[; <" NCO1CON equ 0592h ;# ">
+"18662
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18662: __asm("NCO1CLK equ 0593h");
+[; <" NCO1CLK equ 0593h ;# ">
+"18728
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18728: __asm("CWG1CLKCON equ 060Ch");
+[; <" CWG1CLKCON equ 060Ch ;# ">
+"18756
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18756: __asm("CWG1ISM equ 060Dh");
+[; <" CWG1ISM equ 060Dh ;# ">
+"18802
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18802: __asm("CWG1DBR equ 060Eh");
+[; <" CWG1DBR equ 060Eh ;# ">
+"18906
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 18906: __asm("CWG1DBF equ 060Fh");
+[; <" CWG1DBF equ 060Fh ;# ">
+"19010
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19010: __asm("CWG1CON0 equ 0610h");
+[; <" CWG1CON0 equ 0610h ;# ">
+"19111
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19111: __asm("CWG1CON1 equ 0611h");
+[; <" CWG1CON1 equ 0611h ;# ">
+"19189
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19189: __asm("CWG1AS0 equ 0612h");
+[; <" CWG1AS0 equ 0612h ;# ">
+"19309
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19309: __asm("CWG1AS1 equ 0613h");
+[; <" CWG1AS1 equ 0613h ;# ">
+"19365
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19365: __asm("CWG1STR equ 0614h");
+[; <" CWG1STR equ 0614h ;# ">
+"19477
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19477: __asm("CWG2CLKCON equ 0616h");
+[; <" CWG2CLKCON equ 0616h ;# ">
+"19505
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19505: __asm("CWG2ISM equ 0617h");
+[; <" CWG2ISM equ 0617h ;# ">
+"19551
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19551: __asm("CWG2DBR equ 0618h");
+[; <" CWG2DBR equ 0618h ;# ">
+"19655
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19655: __asm("CWG2DBF equ 0619h");
+[; <" CWG2DBF equ 0619h ;# ">
+"19759
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19759: __asm("CWG2CON0 equ 061Ah");
+[; <" CWG2CON0 equ 061Ah ;# ">
+"19860
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19860: __asm("CWG2CON1 equ 061Bh");
+[; <" CWG2CON1 equ 061Bh ;# ">
+"19938
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 19938: __asm("CWG2AS0 equ 061Ch");
+[; <" CWG2AS0 equ 061Ch ;# ">
+"20058
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20058: __asm("CWG2AS1 equ 061Dh");
+[; <" CWG2AS1 equ 061Dh ;# ">
+"20114
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20114: __asm("CWG2STR equ 061Eh");
+[; <" CWG2STR equ 061Eh ;# ">
+"20226
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20226: __asm("CWG3CLKCON equ 068Ch");
+[; <" CWG3CLKCON equ 068Ch ;# ">
+"20254
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20254: __asm("CWG3ISM equ 068Dh");
+[; <" CWG3ISM equ 068Dh ;# ">
+"20300
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20300: __asm("CWG3DBR equ 068Eh");
+[; <" CWG3DBR equ 068Eh ;# ">
+"20404
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20404: __asm("CWG3DBF equ 068Fh");
+[; <" CWG3DBF equ 068Fh ;# ">
+"20508
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20508: __asm("CWG3CON0 equ 0690h");
+[; <" CWG3CON0 equ 0690h ;# ">
+"20609
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20609: __asm("CWG3CON1 equ 0691h");
+[; <" CWG3CON1 equ 0691h ;# ">
+"20687
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20687: __asm("CWG3AS0 equ 0692h");
+[; <" CWG3AS0 equ 0692h ;# ">
+"20807
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20807: __asm("CWG3AS1 equ 0693h");
+[; <" CWG3AS1 equ 0693h ;# ">
+"20863
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20863: __asm("CWG3STR equ 0694h");
+[; <" CWG3STR equ 0694h ;# ">
+"20975
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 20975: __asm("PIR0 equ 070Ch");
+[; <" PIR0 equ 070Ch ;# ">
+"21008
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21008: __asm("PIR1 equ 070Dh");
+[; <" PIR1 equ 070Dh ;# ">
+"21047
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21047: __asm("PIR2 equ 070Eh");
+[; <" PIR2 equ 070Eh ;# ">
+"21080
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21080: __asm("PIR3 equ 070Fh");
+[; <" PIR3 equ 070Fh ;# ">
+"21130
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21130: __asm("PIR4 equ 0710h");
+[; <" PIR4 equ 0710h ;# ">
+"21180
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21180: __asm("PIR5 equ 0711h");
+[; <" PIR5 equ 0711h ;# ">
+"21237
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21237: __asm("PIR6 equ 0712h");
+[; <" PIR6 equ 0712h ;# ">
+"21281
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21281: __asm("PIR7 equ 0713h");
+[; <" PIR7 equ 0713h ;# ">
+"21347
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21347: __asm("PIR8 equ 0714h");
+[; <" PIR8 equ 0714h ;# ">
+"21397
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21397: __asm("PIE0 equ 0716h");
+[; <" PIE0 equ 0716h ;# ">
+"21430
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21430: __asm("PIE1 equ 0717h");
+[; <" PIE1 equ 0717h ;# ">
+"21469
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21469: __asm("PIE2 equ 0718h");
+[; <" PIE2 equ 0718h ;# ">
+"21502
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21502: __asm("PIE3 equ 0719h");
+[; <" PIE3 equ 0719h ;# ">
+"21552
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21552: __asm("PIE4 equ 071Ah");
+[; <" PIE4 equ 071Ah ;# ">
+"21602
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21602: __asm("PIE5 equ 071Bh");
+[; <" PIE5 equ 071Bh ;# ">
+"21659
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21659: __asm("PIE6 equ 071Ch");
+[; <" PIE6 equ 071Ch ;# ">
+"21703
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21703: __asm("PIE7 equ 071Dh");
+[; <" PIE7 equ 071Dh ;# ">
+"21769
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21769: __asm("PIE8 equ 071Eh");
+[; <" PIE8 equ 071Eh ;# ">
+"21819
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21819: __asm("PMD0 equ 0796h");
+[; <" PMD0 equ 0796h ;# ">
+"21876
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21876: __asm("PMD1 equ 0797h");
+[; <" PMD1 equ 0797h ;# ">
+"21947
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21947: __asm("PMD2 equ 0798h");
+[; <" PMD2 equ 0798h ;# ">
+"21992
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 21992: __asm("PMD3 equ 0799h");
+[; <" PMD3 equ 0799h ;# ">
+"22048
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22048: __asm("PMD4 equ 079Ah");
+[; <" PMD4 equ 079Ah ;# ">
+"22099
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22099: __asm("PMD5 equ 079Bh");
+[; <" PMD5 equ 079Bh ;# ">
+"22156
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22156: __asm("WDTCON0 equ 080Ch");
+[; <" WDTCON0 equ 080Ch ;# ">
+"22231
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22231: __asm("WDTCON1 equ 080Dh");
+[; <" WDTCON1 equ 080Dh ;# ">
+"22325
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22325: __asm("WDTPSL equ 080Eh");
+[; <" WDTPSL equ 080Eh ;# ">
+"22453
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22453: __asm("WDTPSH equ 080Fh");
+[; <" WDTPSH equ 080Fh ;# ">
+"22581
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22581: __asm("WDTTMR equ 0810h");
+[; <" WDTTMR equ 0810h ;# ">
+"22663
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22663: __asm("BORCON equ 0811h");
+[; <" BORCON equ 0811h ;# ">
+"22690
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22690: __asm("VREGCON equ 0812h");
+[; <" VREGCON equ 0812h ;# ">
+"22725
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22725: __asm("PCON0 equ 0813h");
+[; <" PCON0 equ 0813h ;# ">
+"22787
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22787: __asm("CCDCON equ 0814h");
+[; <" CCDCON equ 0814h ;# ">
+"22820
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22820: __asm("NVMADRL equ 081Ah");
+[; <" NVMADRL equ 081Ah ;# ">
+"22882
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22882: __asm("NVMADRH equ 081Bh");
+[; <" NVMADRH equ 081Bh ;# ">
+"22938
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 22938: __asm("NVMDATL equ 081Ch");
+[; <" NVMDATL equ 081Ch ;# ">
+"23000
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23000: __asm("NVMDATH equ 081Dh");
+[; <" NVMDATH equ 081Dh ;# ">
+"23050
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23050: __asm("NVMCON1 equ 081Eh");
+[; <" NVMCON1 equ 081Eh ;# ">
+"23106
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23106: __asm("NVMCON2 equ 081Fh");
+[; <" NVMCON2 equ 081Fh ;# ">
+"23113
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23113: __asm("CPUDOZE equ 088Ch");
+[; <" CPUDOZE equ 088Ch ;# ">
+"23170
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23170: __asm("OSCCON1 equ 088Dh");
+[; <" OSCCON1 equ 088Dh ;# ">
+"23240
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23240: __asm("OSCCON2 equ 088Eh");
+[; <" OSCCON2 equ 088Eh ;# ">
+"23310
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23310: __asm("OSCCON3 equ 088Fh");
+[; <" OSCCON3 equ 088Fh ;# ">
+"23350
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23350: __asm("OSCSTAT equ 0890h");
+[; <" OSCSTAT equ 0890h ;# ">
+"23407
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23407: __asm("OSCEN equ 0891h");
+[; <" OSCEN equ 0891h ;# ">
+"23458
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23458: __asm("OSCTUNE equ 0892h");
+[; <" OSCTUNE equ 0892h ;# ">
+"23516
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23516: __asm("OSCFRQ equ 0893h");
+[; <" OSCFRQ equ 0893h ;# ">
+"23556
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23556: __asm("CLKRCON equ 0895h");
+[; <" CLKRCON equ 0895h ;# ">
+"23621
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23621: __asm("CLKRCLK equ 0896h");
+[; <" CLKRCLK equ 0896h ;# ">
+"23667
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23667: __asm("MDCON0 equ 0897h");
+[; <" MDCON0 equ 0897h ;# ">
+"23707
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23707: __asm("MDCON1 equ 0898h");
+[; <" MDCON1 equ 0898h ;# ">
+"23746
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23746: __asm("MDSRC equ 0899h");
+[; <" MDSRC equ 0899h ;# ">
+"23798
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23798: __asm("MDCARL equ 089Ah");
+[; <" MDCARL equ 089Ah ;# ">
+"23844
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23844: __asm("MDCARH equ 089Bh");
+[; <" MDCARH equ 089Bh ;# ">
+"23890
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23890: __asm("FVRCON equ 090Ch");
+[; <" FVRCON equ 090Ch ;# ">
+"23966
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 23966: __asm("DAC1CON0 equ 090Eh");
+[; <" DAC1CON0 equ 090Eh ;# ">
+"24067
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24067: __asm("DAC1CON1 equ 090Fh");
+[; <" DAC1CON1 equ 090Fh ;# ">
+"24119
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24119: __asm("ZCD1CON equ 091Fh");
+[; <" ZCD1CON equ 091Fh ;# ">
+"24124
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24124: __asm("ZCDCON equ 091Fh");
+[; <" ZCDCON equ 091Fh ;# ">
+"24345
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24345: __asm("CMOUT equ 098Fh");
+[; <" CMOUT equ 098Fh ;# ">
+"24350
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24350: __asm("CMSTAT equ 098Fh");
+[; <" CMSTAT equ 098Fh ;# ">
+"24423
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24423: __asm("CM1CON0 equ 0990h");
+[; <" CM1CON0 equ 0990h ;# ">
+"24509
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24509: __asm("CM1CON1 equ 0991h");
+[; <" CM1CON1 equ 0991h ;# ">
+"24549
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24549: __asm("CM1NSEL equ 0992h");
+[; <" CM1NSEL equ 0992h ;# ">
+"24617
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24617: __asm("CM1PSEL equ 0993h");
+[; <" CM1PSEL equ 0993h ;# ">
+"24685
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24685: __asm("CM2CON0 equ 0994h");
+[; <" CM2CON0 equ 0994h ;# ">
+"24771
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24771: __asm("CM2CON1 equ 0995h");
+[; <" CM2CON1 equ 0995h ;# ">
+"24811
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24811: __asm("CM2NSEL equ 0996h");
+[; <" CM2NSEL equ 0996h ;# ">
+"24879
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24879: __asm("CM2PSEL equ 0997h");
+[; <" CM2PSEL equ 0997h ;# ">
+"24947
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24947: __asm("CLCDATA equ 0E0Fh");
+[; <" CLCDATA equ 0E0Fh ;# ">
+"24985
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 24985: __asm("CLC1CON equ 0E10h");
+[; <" CLC1CON equ 0E10h ;# ">
+"25103
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25103: __asm("CLC1POL equ 0E11h");
+[; <" CLC1POL equ 0E11h ;# ">
+"25181
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25181: __asm("CLC1SEL0 equ 0E12h");
+[; <" CLC1SEL0 equ 0E12h ;# ">
+"25309
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25309: __asm("CLC1SEL1 equ 0E13h");
+[; <" CLC1SEL1 equ 0E13h ;# ">
+"25437
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25437: __asm("CLC1SEL2 equ 0E14h");
+[; <" CLC1SEL2 equ 0E14h ;# ">
+"25565
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25565: __asm("CLC1SEL3 equ 0E15h");
+[; <" CLC1SEL3 equ 0E15h ;# ">
+"25693
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25693: __asm("CLC1GLS0 equ 0E16h");
+[; <" CLC1GLS0 equ 0E16h ;# ">
+"25805
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25805: __asm("CLC1GLS1 equ 0E17h");
+[; <" CLC1GLS1 equ 0E17h ;# ">
+"25917
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 25917: __asm("CLC1GLS2 equ 0E18h");
+[; <" CLC1GLS2 equ 0E18h ;# ">
+"26029
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26029: __asm("CLC1GLS3 equ 0E19h");
+[; <" CLC1GLS3 equ 0E19h ;# ">
+"26141
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26141: __asm("CLC2CON equ 0E1Ah");
+[; <" CLC2CON equ 0E1Ah ;# ">
+"26259
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26259: __asm("CLC2POL equ 0E1Bh");
+[; <" CLC2POL equ 0E1Bh ;# ">
+"26337
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26337: __asm("CLC2SEL0 equ 0E1Ch");
+[; <" CLC2SEL0 equ 0E1Ch ;# ">
+"26465
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26465: __asm("CLC2SEL1 equ 0E1Dh");
+[; <" CLC2SEL1 equ 0E1Dh ;# ">
+"26593
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26593: __asm("CLC2SEL2 equ 0E1Eh");
+[; <" CLC2SEL2 equ 0E1Eh ;# ">
+"26721
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26721: __asm("CLC2SEL3 equ 0E1Fh");
+[; <" CLC2SEL3 equ 0E1Fh ;# ">
+"26849
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26849: __asm("CLC2GLS0 equ 0E20h");
+[; <" CLC2GLS0 equ 0E20h ;# ">
+"26961
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 26961: __asm("CLC2GLS1 equ 0E21h");
+[; <" CLC2GLS1 equ 0E21h ;# ">
+"27073
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27073: __asm("CLC2GLS2 equ 0E22h");
+[; <" CLC2GLS2 equ 0E22h ;# ">
+"27185
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27185: __asm("CLC2GLS3 equ 0E23h");
+[; <" CLC2GLS3 equ 0E23h ;# ">
+"27297
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27297: __asm("CLC3CON equ 0E24h");
+[; <" CLC3CON equ 0E24h ;# ">
+"27415
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27415: __asm("CLC3POL equ 0E25h");
+[; <" CLC3POL equ 0E25h ;# ">
+"27493
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27493: __asm("CLC3SEL0 equ 0E26h");
+[; <" CLC3SEL0 equ 0E26h ;# ">
+"27621
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27621: __asm("CLC3SEL1 equ 0E27h");
+[; <" CLC3SEL1 equ 0E27h ;# ">
+"27749
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27749: __asm("CLC3SEL2 equ 0E28h");
+[; <" CLC3SEL2 equ 0E28h ;# ">
+"27877
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 27877: __asm("CLC3SEL3 equ 0E29h");
+[; <" CLC3SEL3 equ 0E29h ;# ">
+"28005
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28005: __asm("CLC3GLS0 equ 0E2Ah");
+[; <" CLC3GLS0 equ 0E2Ah ;# ">
+"28117
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28117: __asm("CLC3GLS1 equ 0E2Bh");
+[; <" CLC3GLS1 equ 0E2Bh ;# ">
+"28229
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28229: __asm("CLC3GLS2 equ 0E2Ch");
+[; <" CLC3GLS2 equ 0E2Ch ;# ">
+"28341
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28341: __asm("CLC3GLS3 equ 0E2Dh");
+[; <" CLC3GLS3 equ 0E2Dh ;# ">
+"28453
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28453: __asm("CLC4CON equ 0E2Eh");
+[; <" CLC4CON equ 0E2Eh ;# ">
+"28571
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28571: __asm("CLC4POL equ 0E2Fh");
+[; <" CLC4POL equ 0E2Fh ;# ">
+"28649
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28649: __asm("CLC4SEL0 equ 0E30h");
+[; <" CLC4SEL0 equ 0E30h ;# ">
+"28777
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28777: __asm("CLC4SEL1 equ 0E31h");
+[; <" CLC4SEL1 equ 0E31h ;# ">
+"28905
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 28905: __asm("CLC4SEL2 equ 0E32h");
+[; <" CLC4SEL2 equ 0E32h ;# ">
+"29033
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29033: __asm("CLC4SEL3 equ 0E33h");
+[; <" CLC4SEL3 equ 0E33h ;# ">
+"29161
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29161: __asm("CLC4GLS0 equ 0E34h");
+[; <" CLC4GLS0 equ 0E34h ;# ">
+"29273
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29273: __asm("CLC4GLS1 equ 0E35h");
+[; <" CLC4GLS1 equ 0E35h ;# ">
+"29385
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29385: __asm("CLC4GLS2 equ 0E36h");
+[; <" CLC4GLS2 equ 0E36h ;# ">
+"29497
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29497: __asm("CLC4GLS3 equ 0E37h");
+[; <" CLC4GLS3 equ 0E37h ;# ">
+"29609
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29609: __asm("PPSLOCK equ 0E8Fh");
+[; <" PPSLOCK equ 0E8Fh ;# ">
+"29629
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29629: __asm("INTPPS equ 0E90h");
+[; <" INTPPS equ 0E90h ;# ">
+"29675
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29675: __asm("T0CKIPPS equ 0E91h");
+[; <" T0CKIPPS equ 0E91h ;# ">
+"29721
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29721: __asm("T1CKIPPS equ 0E92h");
+[; <" T1CKIPPS equ 0E92h ;# ">
+"29773
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29773: __asm("T1GPPS equ 0E93h");
+[; <" T1GPPS equ 0E93h ;# ">
+"29825
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29825: __asm("T3CKIPPS equ 0E94h");
+[; <" T3CKIPPS equ 0E94h ;# ">
+"29877
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29877: __asm("T3GPPS equ 0E95h");
+[; <" T3GPPS equ 0E95h ;# ">
+"29929
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29929: __asm("T5CKIPPS equ 0E96h");
+[; <" T5CKIPPS equ 0E96h ;# ">
+"29981
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 29981: __asm("T5GPPS equ 0E97h");
+[; <" T5GPPS equ 0E97h ;# ">
+"30033
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30033: __asm("T2AINPPS equ 0E9Ch");
+[; <" T2AINPPS equ 0E9Ch ;# ">
+"30085
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30085: __asm("T4AINPPS equ 0E9Dh");
+[; <" T4AINPPS equ 0E9Dh ;# ">
+"30137
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30137: __asm("T6AINPPS equ 0E9Eh");
+[; <" T6AINPPS equ 0E9Eh ;# ">
+"30189
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30189: __asm("CCP1PPS equ 0EA1h");
+[; <" CCP1PPS equ 0EA1h ;# ">
+"30241
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30241: __asm("CCP2PPS equ 0EA2h");
+[; <" CCP2PPS equ 0EA2h ;# ">
+"30293
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30293: __asm("CCP3PPS equ 0EA3h");
+[; <" CCP3PPS equ 0EA3h ;# ">
+"30345
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30345: __asm("CCP4PPS equ 0EA4h");
+[; <" CCP4PPS equ 0EA4h ;# ">
+"30397
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30397: __asm("CCP5PPS equ 0EA5h");
+[; <" CCP5PPS equ 0EA5h ;# ">
+"30449
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30449: __asm("SMT1WINPPS equ 0EA9h");
+[; <" SMT1WINPPS equ 0EA9h ;# ">
+"30501
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30501: __asm("SMT1SIGPPS equ 0EAAh");
+[; <" SMT1SIGPPS equ 0EAAh ;# ">
+"30553
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30553: __asm("SMT2WINPPS equ 0EABh");
+[; <" SMT2WINPPS equ 0EABh ;# ">
+"30605
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30605: __asm("SMT2SIGPPS equ 0EACh");
+[; <" SMT2SIGPPS equ 0EACh ;# ">
+"30657
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30657: __asm("CWG1PPS equ 0EB1h");
+[; <" CWG1PPS equ 0EB1h ;# ">
+"30709
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30709: __asm("CWG2PPS equ 0EB2h");
+[; <" CWG2PPS equ 0EB2h ;# ">
+"30761
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30761: __asm("CWG3PPS equ 0EB3h");
+[; <" CWG3PPS equ 0EB3h ;# ">
+"30813
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30813: __asm("MDCARLPPS equ 0EB8h");
+[; <" MDCARLPPS equ 0EB8h ;# ">
+"30865
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30865: __asm("MDCARHPPS equ 0EB9h");
+[; <" MDCARHPPS equ 0EB9h ;# ">
+"30917
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30917: __asm("MDSRCPPS equ 0EBAh");
+[; <" MDSRCPPS equ 0EBAh ;# ">
+"30969
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 30969: __asm("CLCIN0PPS equ 0EBBh");
+[; <" CLCIN0PPS equ 0EBBh ;# ">
+"31021
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31021: __asm("CLCIN1PPS equ 0EBCh");
+[; <" CLCIN1PPS equ 0EBCh ;# ">
+"31073
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31073: __asm("CLCIN2PPS equ 0EBDh");
+[; <" CLCIN2PPS equ 0EBDh ;# ">
+"31125
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31125: __asm("CLCIN3PPS equ 0EBEh");
+[; <" CLCIN3PPS equ 0EBEh ;# ">
+"31177
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31177: __asm("ADCACTPPS equ 0EC3h");
+[; <" ADCACTPPS equ 0EC3h ;# ">
+"31229
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31229: __asm("SSP1CLKPPS equ 0EC5h");
+[; <" SSP1CLKPPS equ 0EC5h ;# ">
+"31281
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31281: __asm("SSP1DATPPS equ 0EC6h");
+[; <" SSP1DATPPS equ 0EC6h ;# ">
+"31333
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31333: __asm("SSP1SSPPS equ 0EC7h");
+[; <" SSP1SSPPS equ 0EC7h ;# ">
+"31385
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31385: __asm("SSP2CLKPPS equ 0EC8h");
+[; <" SSP2CLKPPS equ 0EC8h ;# ">
+"31437
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31437: __asm("SSP2DATPPS equ 0EC9h");
+[; <" SSP2DATPPS equ 0EC9h ;# ">
+"31489
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31489: __asm("SSP2SSPPS equ 0ECAh");
+[; <" SSP2SSPPS equ 0ECAh ;# ">
+"31541
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31541: __asm("RXPPS equ 0ECBh");
+[; <" RXPPS equ 0ECBh ;# ">
+"31593
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31593: __asm("TXPPS equ 0ECCh");
+[; <" TXPPS equ 0ECCh ;# ">
+"31645
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31645: __asm("RA0PPS equ 0F10h");
+[; <" RA0PPS equ 0F10h ;# ">
+"31695
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31695: __asm("RA1PPS equ 0F11h");
+[; <" RA1PPS equ 0F11h ;# ">
+"31745
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31745: __asm("RA2PPS equ 0F12h");
+[; <" RA2PPS equ 0F12h ;# ">
+"31795
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31795: __asm("RA3PPS equ 0F13h");
+[; <" RA3PPS equ 0F13h ;# ">
+"31845
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31845: __asm("RA4PPS equ 0F14h");
+[; <" RA4PPS equ 0F14h ;# ">
+"31895
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31895: __asm("RA5PPS equ 0F15h");
+[; <" RA5PPS equ 0F15h ;# ">
+"31945
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31945: __asm("RA6PPS equ 0F16h");
+[; <" RA6PPS equ 0F16h ;# ">
+"31995
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 31995: __asm("RA7PPS equ 0F17h");
+[; <" RA7PPS equ 0F17h ;# ">
+"32045
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32045: __asm("RB0PPS equ 0F18h");
+[; <" RB0PPS equ 0F18h ;# ">
+"32095
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32095: __asm("RB1PPS equ 0F19h");
+[; <" RB1PPS equ 0F19h ;# ">
+"32145
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32145: __asm("RB2PPS equ 0F1Ah");
+[; <" RB2PPS equ 0F1Ah ;# ">
+"32195
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32195: __asm("RB3PPS equ 0F1Bh");
+[; <" RB3PPS equ 0F1Bh ;# ">
+"32245
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32245: __asm("RB4PPS equ 0F1Ch");
+[; <" RB4PPS equ 0F1Ch ;# ">
+"32295
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32295: __asm("RB5PPS equ 0F1Dh");
+[; <" RB5PPS equ 0F1Dh ;# ">
+"32345
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32345: __asm("RB6PPS equ 0F1Eh");
+[; <" RB6PPS equ 0F1Eh ;# ">
+"32395
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32395: __asm("RB7PPS equ 0F1Fh");
+[; <" RB7PPS equ 0F1Fh ;# ">
+"32445
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32445: __asm("RC0PPS equ 0F20h");
+[; <" RC0PPS equ 0F20h ;# ">
+"32495
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32495: __asm("RC1PPS equ 0F21h");
+[; <" RC1PPS equ 0F21h ;# ">
+"32545
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32545: __asm("RC2PPS equ 0F22h");
+[; <" RC2PPS equ 0F22h ;# ">
+"32595
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32595: __asm("RC3PPS equ 0F23h");
+[; <" RC3PPS equ 0F23h ;# ">
+"32645
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32645: __asm("RC4PPS equ 0F24h");
+[; <" RC4PPS equ 0F24h ;# ">
+"32695
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32695: __asm("RC5PPS equ 0F25h");
+[; <" RC5PPS equ 0F25h ;# ">
+"32745
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32745: __asm("RC6PPS equ 0F26h");
+[; <" RC6PPS equ 0F26h ;# ">
+"32795
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32795: __asm("RC7PPS equ 0F27h");
+[; <" RC7PPS equ 0F27h ;# ">
+"32845
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32845: __asm("ANSELA equ 0F38h");
+[; <" ANSELA equ 0F38h ;# ">
+"32907
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32907: __asm("WPUA equ 0F39h");
+[; <" WPUA equ 0F39h ;# ">
+"32969
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 32969: __asm("ODCONA equ 0F3Ah");
+[; <" ODCONA equ 0F3Ah ;# ">
+"33031
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33031: __asm("SLRCONA equ 0F3Bh");
+[; <" SLRCONA equ 0F3Bh ;# ">
+"33093
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33093: __asm("INLVLA equ 0F3Ch");
+[; <" INLVLA equ 0F3Ch ;# ">
+"33155
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33155: __asm("IOCAP equ 0F3Dh");
+[; <" IOCAP equ 0F3Dh ;# ">
+"33217
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33217: __asm("IOCAN equ 0F3Eh");
+[; <" IOCAN equ 0F3Eh ;# ">
+"33279
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33279: __asm("IOCAF equ 0F3Fh");
+[; <" IOCAF equ 0F3Fh ;# ">
+"33341
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33341: __asm("CCDNA equ 0F40h");
+[; <" CCDNA equ 0F40h ;# ">
+"33403
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33403: __asm("CCDPA equ 0F41h");
+[; <" CCDPA equ 0F41h ;# ">
+"33465
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33465: __asm("ANSELB equ 0F43h");
+[; <" ANSELB equ 0F43h ;# ">
+"33527
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33527: __asm("WPUB equ 0F44h");
+[; <" WPUB equ 0F44h ;# ">
+"33589
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33589: __asm("ODCONB equ 0F45h");
+[; <" ODCONB equ 0F45h ;# ">
+"33651
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33651: __asm("SLRCONB equ 0F46h");
+[; <" SLRCONB equ 0F46h ;# ">
+"33713
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33713: __asm("INLVLB equ 0F47h");
+[; <" INLVLB equ 0F47h ;# ">
+"33775
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33775: __asm("IOCBP equ 0F48h");
+[; <" IOCBP equ 0F48h ;# ">
+"33837
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33837: __asm("IOCBN equ 0F49h");
+[; <" IOCBN equ 0F49h ;# ">
+"33899
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33899: __asm("IOCBF equ 0F4Ah");
+[; <" IOCBF equ 0F4Ah ;# ">
+"33961
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 33961: __asm("CCDNB equ 0F4Bh");
+[; <" CCDNB equ 0F4Bh ;# ">
+"34023
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34023: __asm("CCDPB equ 0F4Ch");
+[; <" CCDPB equ 0F4Ch ;# ">
+"34085
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34085: __asm("ANSELC equ 0F4Eh");
+[; <" ANSELC equ 0F4Eh ;# ">
+"34147
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34147: __asm("WPUC equ 0F4Fh");
+[; <" WPUC equ 0F4Fh ;# ">
+"34209
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34209: __asm("ODCONC equ 0F50h");
+[; <" ODCONC equ 0F50h ;# ">
+"34271
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34271: __asm("SLRCONC equ 0F51h");
+[; <" SLRCONC equ 0F51h ;# ">
+"34333
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34333: __asm("INLVLC equ 0F52h");
+[; <" INLVLC equ 0F52h ;# ">
+"34395
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34395: __asm("IOCCP equ 0F53h");
+[; <" IOCCP equ 0F53h ;# ">
+"34457
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34457: __asm("IOCCN equ 0F54h");
+[; <" IOCCN equ 0F54h ;# ">
+"34519
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34519: __asm("IOCCF equ 0F55h");
+[; <" IOCCF equ 0F55h ;# ">
+"34581
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34581: __asm("CCDNC equ 0F56h");
+[; <" CCDNC equ 0F56h ;# ">
+"34643
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34643: __asm("CCDPC equ 0F57h");
+[; <" CCDPC equ 0F57h ;# ">
+"34705
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34705: __asm("WPUE equ 0F65h");
+[; <" WPUE equ 0F65h ;# ">
+"34726
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34726: __asm("INLVLE equ 0F68h");
+[; <" INLVLE equ 0F68h ;# ">
+"34747
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34747: __asm("IOCEP equ 0F69h");
+[; <" IOCEP equ 0F69h ;# ">
+"34768
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34768: __asm("IOCEN equ 0F6Ah");
+[; <" IOCEN equ 0F6Ah ;# ">
+"34789
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34789: __asm("IOCEF equ 0F6Bh");
+[; <" IOCEF equ 0F6Bh ;# ">
+"34810
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34810: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"34842
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34842: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"34862
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34862: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"34882
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34882: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"34902
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34902: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"34922
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34922: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"34942
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34942: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"34962
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34962: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"34982
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 34982: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"35002
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 35002: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"35022
+[; ;/Users/kabillamond/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8/pic/include/proc/pic16f18855.h: 35022: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"10 /Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 10: uint16_t ADC;
+[v _ADC `us ~T0 @X0 1 e ]
+"11
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 11: void magnet_init(){
+[v _magnet_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _magnet_init ]
+[f ]
+"12
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 12:     ANSELAbits.ANSA0 = 0;
+[e = . . _ANSELAbits 0 0 -> -> 0 `i `uc ]
+"13
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 13:     TRISAbits.TRISA0 = 0;
+[e = . . _TRISAbits 0 0 -> -> 0 `i `uc ]
+"14
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 14:     LATAbits.LATA0 = 0;
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+"16
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 16:     ANSELBbits.ANSB4 = 1;
+[e = . . _ANSELBbits 0 4 -> -> 1 `i `uc ]
+"17
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 17:     TRISBbits.TRISB4 = 1;
+[e = . . _TRISBbits 0 4 -> -> 1 `i `uc ]
+"19
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 19:     ADCLKbits.ADCCS = 0b111111;
+[e = . . _ADCLKbits 0 0 -> -> 63 `i `uc ]
+"21
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 21:     ADREFbits.ADPREF = 00;
+[e = . . _ADREFbits 0 0 -> -> 0 `i `uc ]
+"22
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 22:     ADREFbits.ADNREF = 0;
+[e = . . _ADREFbits 0 2 -> -> 0 `i `uc ]
+"24
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 24:     ADPCH = 0b001100;
+[e = _ADPCH -> -> 12 `i `uc ]
+"25
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 25:     ADACQ = 0x1;
+[e = _ADACQ -> -> 1 `i `uc ]
+"27
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 27:     ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 0 6 -> -> 1 `i `uc ]
+"28
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 28:     ADCON0bits.ADFM0 = 1;
+[e = . . _ADCON0bits 3 2 -> -> 1 `i `uc ]
+"30
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 30:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
+"31
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 31:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"32
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 32: }
+[e :UE 1564 ]
+}
+"34
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 34: uint16_t neutral = 0x154;
+[v _neutral `us ~T0 @X0 1 e ]
+[i _neutral
+-> -> 340 `i `us
+]
+"35
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 35: uint16_t sensitivity = 0x28;
+[v _sensitivity `us ~T0 @X0 1 e ]
+[i _sensitivity
+-> -> 40 `i `us
+]
+"37
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 37: void magnetic_parse_502(void) {
+[v _magnetic_parse_502 `(v ~T0 @X0 1 ef ]
+{
+[e :U _magnetic_parse_502 ]
+[f ]
+"38
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 38:     uint16_t SW_A = ((uint16_t)comms_payload[9] << 8) | comms_payload[8];
+[v _SW_A `us ~T0 @X0 1 a ]
+[e = _SW_A -> | << -> -> *U + &U _comms_payload * -> -> -> 9 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `us `ui -> 8 `i -> *U + &U _comms_payload * -> -> -> 8 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `ui `us ]
+"39
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 39:     uint16_t SW_B = ((uint16_t)comms_payload[11] << 8) | comms_payload[10];
+[v _SW_B `us ~T0 @X0 1 a ]
+[e = _SW_B -> | << -> -> *U + &U _comms_payload * -> -> -> 11 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `us `ui -> 8 `i -> *U + &U _comms_payload * -> -> -> 10 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `ui `us ]
+"42
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 42:     if (SW_A == 2000 && SW_B == 2000) return;
+[e $ ! && == -> _SW_A `ui -> -> 2000 `i `ui == -> _SW_B `ui -> -> 2000 `i `ui 1566  ]
+[e $UE 1565  ]
+[e :U 1566 ]
+"46
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 46:     uint16_t flag = (comms_payload[13] << 8) | comms_payload[12];
+[v _flag `us ~T0 @X0 1 a ]
+[e = _flag -> | << -> *U + &U _comms_payload * -> -> -> 13 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `i -> 8 `i -> *U + &U _comms_payload * -> -> -> 12 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `i `us ]
+"47
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 47:     if (flag == 1500) {
+[e $ ! == -> _flag `ui -> -> 1500 `i `ui 1567  ]
+{
+"48
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 48:         ADCON0bits.ADGO = 1;
+[e = . . _ADCON0bits 0 0 -> -> 1 `i `uc ]
+"49
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 49:         while(ADCON0bits.ADGO);
+[e $U 1568  ]
+[e :U 1569 ]
+[e :U 1568 ]
+[e $ != -> . . _ADCON0bits 0 0 `i -> 0 `i 1569  ]
+[e :U 1570 ]
+"51
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 51:         ADC = ((uint16_t)ADRESH << 8) | ADRESL;
+[e = _ADC -> | << -> -> _ADRESH `us `ui -> 8 `i -> _ADRESL `ui `us ]
+"52
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 52:         if((neutral+sensitivity) > ADC && ADC > (neutral-sensitivity)){
+[e $ ! && > + -> _neutral `ui -> _sensitivity `ui -> _ADC `ui > -> _ADC `ui - -> _neutral `ui -> _sensitivity `ui 1571  ]
+{
+"53
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 53:             LATAbits.LATA0 = 0;
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+"54
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 54:         }else{
+}
+[e $U 1572  ]
+[e :U 1571 ]
+{
+"55
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 55:             LATAbits.LATA0 = 1;
+[e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
+"56
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 56:         }
+}
+[e :U 1572 ]
+"57
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 57:         return;
+[e $UE 1565  ]
+"58
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 58:     }else if(flag == 2000){
+}
+[e $U 1573  ]
+[e :U 1567 ]
+[e $ ! == -> _flag `ui -> -> 2000 `i `ui 1574  ]
+{
+"59
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 59:         LATAbits.LATA0 = 0;
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+"61
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 61:         uint16_t pyramid_num_raw = (comms_payload[17] << 8) | comms_payload[16];
+[v _pyramid_num_raw `us ~T0 @X0 1 a ]
+[e = _pyramid_num_raw -> | << -> *U + &U _comms_payload * -> -> -> 17 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `i -> 8 `i -> *U + &U _comms_payload * -> -> -> 16 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `i `us ]
+"62
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 62:         uint8_t pyramid_num;
+[v _pyramid_num `uc ~T0 @X0 1 a ]
+"63
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 63:         if (pyramid_num_raw <= 1167) {
+[e $ ! <= -> _pyramid_num_raw `ui -> -> 1167 `i `ui 1575  ]
+{
+"64
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 64:             pyramid_num = 1;
+[e = _pyramid_num -> -> 1 `i `uc ]
+"65
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 65:         } else if (pyramid_num_raw <= 1333) {
+}
+[e $U 1576  ]
+[e :U 1575 ]
+[e $ ! <= -> _pyramid_num_raw `ui -> -> 1333 `i `ui 1577  ]
+{
+"66
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 66:             pyramid_num = 2;
+[e = _pyramid_num -> -> 2 `i `uc ]
+"67
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 67:         } else if (pyramid_num_raw <= 1500) {
+}
+[e $U 1578  ]
+[e :U 1577 ]
+[e $ ! <= -> _pyramid_num_raw `ui -> -> 1500 `i `ui 1579  ]
+{
+"68
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 68:             pyramid_num = 3;
+[e = _pyramid_num -> -> 3 `i `uc ]
+"69
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 69:         } else if (pyramid_num_raw <= 1667) {
+}
+[e $U 1580  ]
+[e :U 1579 ]
+[e $ ! <= -> _pyramid_num_raw `ui -> -> 1667 `i `ui 1581  ]
+{
+"70
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 70:             pyramid_num = 4;
+[e = _pyramid_num -> -> 4 `i `uc ]
+"71
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 71:         } else if (pyramid_num_raw <= 1833) {
+}
+[e $U 1582  ]
+[e :U 1581 ]
+[e $ ! <= -> _pyramid_num_raw `ui -> -> 1833 `i `ui 1583  ]
+{
+"72
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 72:             pyramid_num = 5;
+[e = _pyramid_num -> -> 5 `i `uc ]
+"73
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 73:         } else {
+}
+[e $U 1584  ]
+[e :U 1583 ]
+{
+"74
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 74:             pyramid_num = 6;
+[e = _pyramid_num -> -> 6 `i `uc ]
+"75
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 75:         }
+}
+[e :U 1584 ]
+[e :U 1582 ]
+[e :U 1580 ]
+[e :U 1578 ]
+[e :U 1576 ]
+"76
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 76:         comms_send_mag_info(pyramid_num);
+[e ( _comms_send_mag_info (1 _pyramid_num ]
+"77
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 77:     }
+}
+[e :U 1574 ]
+[e :U 1573 ]
+"78
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/task_magnetic.c: 78: }
+[e :UE 1565 ]
+}

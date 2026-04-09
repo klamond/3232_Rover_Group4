@@ -1,0 +1,77 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"7 /Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h: 7: extern uint8_t comms_payload[21];
+[v _comms_payload `uc ~T0 @X0 -> 0 `x e ]
+"17
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/comms.h: 17: void comms_send_color_info(uint8_t color);
+[v _comms_send_color_info `(v ~T0 @X0 0 ef1`uc ]
+"4 /Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 4: void ore_process_parse_502(void) {
+[v _ore_process_parse_502 `(v ~T0 @X0 1 ef ]
+{
+[e :U _ore_process_parse_502 ]
+[f ]
+"5
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 5:     uint16_t SW1 = ((uint16_t)comms_payload[9] << 8) | comms_payload[8];
+[v _SW1 `us ~T0 @X0 1 a ]
+[e = _SW1 -> | << -> -> *U + &U _comms_payload * -> -> -> 9 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `us `ui -> 8 `i -> *U + &U _comms_payload * -> -> -> 8 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `ui `us ]
+"6
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 6:     uint16_t SW4 = ((uint16_t)comms_payload[15] << 8) | comms_payload[14];
+[v _SW4 `us ~T0 @X0 1 a ]
+[e = _SW4 -> | << -> -> *U + &U _comms_payload * -> -> -> 15 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `us `ui -> 8 `i -> *U + &U _comms_payload * -> -> -> 14 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `ui `us ]
+"8
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 8:     if (SW1 != 2000 || SW4 != 2000) {
+[e $ ! || != -> _SW1 `ui -> -> 2000 `i `ui != -> _SW4 `ui -> -> 2000 `i `ui 2  ]
+{
+"9
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 9:         return;
+[e $UE 1  ]
+"10
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 10:     }
+}
+[e :U 2 ]
+"12
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 12:     uint16_t color_raw = ((uint16_t)comms_payload[19] << 8) | comms_payload[18];
+[v _color_raw `us ~T0 @X0 1 a ]
+[e = _color_raw -> | << -> -> *U + &U _comms_payload * -> -> -> 19 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `us `ui -> 8 `i -> *U + &U _comms_payload * -> -> -> 18 `i `ui `ux -> -> # *U &U _comms_payload `ui `ux `ui `us ]
+"13
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 13:     uint8_t color;
+[v _color `uc ~T0 @X0 1 a ]
+"15
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 15:     if (color_raw <= 1333) {
+[e $ ! <= -> _color_raw `ui -> -> 1333 `i `ui 3  ]
+{
+"16
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 16:         color = 1;
+[e = _color -> -> 1 `i `uc ]
+"17
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 17:     } else if (color_raw <= 1666) {
+}
+[e $U 4  ]
+[e :U 3 ]
+[e $ ! <= -> _color_raw `ui -> -> 1666 `i `ui 5  ]
+{
+"18
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 18:         color = 2;
+[e = _color -> -> 2 `i `uc ]
+"19
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 19:     } else {
+}
+[e $U 6  ]
+[e :U 5 ]
+{
+"20
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 20:         color = 3;
+[e = _color -> -> 3 `i `uc ]
+"21
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 21:     }
+}
+[e :U 6 ]
+[e :U 4 ]
+"23
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 23:     comms_send_color_info(color);
+[e ( _comms_send_color_info (1 _color ]
+"24
+[; ;/Users/kabillamond/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/Winter 26/Embeded (ECE-3232)/BIGGER_DAWG_ROVER/ore_process.c: 24: }
+[e :UE 1 ]
+}
